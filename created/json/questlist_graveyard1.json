@@ -113,5 +113,15 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"nondisplay_2",
+        "name":"Placeholder for hidden quest stages 2 (not displayed)",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Got Cithurn's talisman"
+            }
+        ]
     }
 ]

@@ -1519,6 +1519,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"cithurn_talisman",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":10
             }
         ]
     },
