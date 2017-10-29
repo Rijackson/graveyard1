@@ -79,18 +79,5 @@
                 }
             }
         ]
-    },
-    {
-        "id":"waterwaycavebmonster",
-        "items":[
-            {
-                "itemID":"heartstone",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":1
-                }
-            }
-        ]
     }
 ]

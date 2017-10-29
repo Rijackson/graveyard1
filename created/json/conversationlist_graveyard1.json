@@ -870,95 +870,6 @@
         "message":"Baah!"
     },
     {
-        "id":"cavefairy10",
-        "message":"Greetings young one.",
-        "replies":[
-            {
-                "text":"What is this place?",
-                "nextPhraseID":"cavefairy20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nocmar",
-                        "value":20,
-                        "negate":false
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nocmar",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"cavefairy20",
-        "message":"Well, this fountain is my home but everything else used to be a heartstone mine. The miners left after Lord Geomyr banned the use of heartsteel.",
-        "replies":[
-            {
-                "text":"Are there any heartstones left?",
-                "nextPhraseID":"cavefairy30"
-            }
-        ]
-    },
-    {
-        "id":"cavefairy30",
-        "message":"I believe so. However, after the mine closed monsters began to appear and multipy.",
-        "replies":[
-            {
-                "text":"Monsters?",
-                "nextPhraseID":"cavefairy40"
-            }
-        ]
-    },
-    {
-        "id":"cavefairy40",
-        "message":"I'm afraid yes. I'm sorry but if you are here for a heartstone, you will have to confront these monsters first.",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"nocmar",
-                "value":30
-            }
-        ]
-    },
-    {
-        "id":"losttreasurebosskill_10",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"losttreasurebosskill_20",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"waterwaycavebmonster",
-                        "value":1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"losttreasurebosskill_20",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"nocmar",
-                "value":40
-            }
-        ]
-    },
-    {
-        "id":"hilltownsign",
-        "message":"Welcome to Hilltown. Please do not step on our flowerbeds."
-    },
-    {
-        "id":"hilltowndirection",
-        "message":"North: Hilltown\nWest: Carn Tower"
-    },
-    {
         "id":"lostfound1",
         "message":"You find a partly visible gem sticking out of the exposed rock.",
         "rewards":[
@@ -1002,28 +913,6 @@
                         "requireType":"inventoryRemove",
                         "requireID":"graveyardtext",
                         "value":1
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"cavefairy99",
-        "message":"",
-        "replies":[
-            {
-                "text":"What is this place?",
-                "nextPhraseID":"cavefairy20",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nocmar",
-                        "value":20
-                    },
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"nocmar",
-                        "value":40
                     }
                 ]
             }
@@ -1133,15 +1022,6 @@
         ]
     },
     {
-        "id":"cavefairy_begin",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"cavefairy10"
-            }
-        ]
-    },
-    {
         "id":"graveyardday2",
         "message":"The ancient text crumbles and turns to dust. The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves.",
         "rewards":[
@@ -1247,10 +1127,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id":"undergroundtrailblock",
-        "message":"Passage further into the mine is blocked."
     },
     {
         "id":"algore_01",
@@ -1581,5 +1457,9 @@
     {
         "id":"cithurn_112",
         "message":"Then I have nothing to say to you."
+    },
+    {
+        "id":"sign_cave_entrance",
+        "message":"You have found a hatchway that appears to give access to something underground, but it is locked, and you can't open it."
     }
 ]

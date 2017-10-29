@@ -7,12 +7,6 @@
     <map id="waterwayacave4" x="16" y="47"/>
     <map id="waterwayacavex" x="47" y="36"/>
   </segment>
-  <segment id="undergroundtrail" x="36" y="-22">
-    <map id="undergroundtrail" x="36" y="25"/>
-    <map id="undergroundtrail2" x="38" y="-6"/>
-    <map id="undergroundtrail3" x="36" y="56"/>
-    <map id="undergroundtrail4" x="38" y="-22"/>
-  </segment>
   <segment id="bwentry" x="14" y="387">
     <map id="blackwater_mountain5a" x="14" y="387"/>
     <map id="blackwater_mountain5" x="35" y="387"/>
