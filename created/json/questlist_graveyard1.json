@@ -121,6 +121,18 @@
             {
                 "progress":10,
                 "logText":"Got Cithurn's talisman"
+            },
+            {
+                "progress":20,
+                "logText":"Found gold on waytolake7b"
+            },
+            {
+                "progress":30,
+                "logText":"Found gem 1 on waytolake6"
+            },
+            {
+                "progress":40,
+                "logText":"Found gem 2 on waytolake6"
             }
         ]
     }

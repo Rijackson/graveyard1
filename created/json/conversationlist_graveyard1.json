@@ -877,6 +877,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"gem4",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":30
             }
         ]
     },
@@ -886,8 +891,13 @@
         "rewards":[
             {
                 "rewardType":"giveItem",
-                "rewardID":"gem6",
+                "rewardID":"gem5",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":40
             }
         ]
     },
@@ -1461,5 +1471,80 @@
     {
         "id":"sign_cave_entrance",
         "message":"You have found a hatchway that appears to give access to something underground, but it is locked, and you can't open it."
+    },
+    {
+        "id":"sign_waytolake7b_1",
+        "message":"You found some gold amongst the bones!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":653
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"sign_waytolake7b_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"sign_waytolake7b_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"sign_waytolake7b_2"
+            }
+        ]
+    },
+    {
+        "id":"sign_waytolake7b_2",
+        "message":"There is nothing more to be found here."
+    },
+    {
+        "id":"lostfound1_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lostfound1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"lostfound2_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"lostfound2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     }
 ]
