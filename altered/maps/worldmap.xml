@@ -196,8 +196,6 @@
     <map id="roadtocarntower2" x="86" y="300"/>
     <map area="vilegard" id="vilegard_n" x="360" y="471"/>
     <map area="vilegard" id="vilegard_s" x="360" y="492"/>
-    <map area="vilegard" id="vilegard1" x="341" y="489"/>
-    <map area="vilegard" id="vilegard2" x="341" y="471"/>
     <map id="vilegard_sw" x="349" y="505"/>
     <map id="waterway0" x="279" y="192"/>
     <map id="waterway1" x="310" y="171"/>

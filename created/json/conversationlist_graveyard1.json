@@ -834,34 +834,6 @@
         "message":"Well I'm the only one here."
     },
     {
-        "id":"lankson00",
-        "message":"Welcome to my shop! I'm Lankson."
-    },
-    {
-        "id":"lankson10",
-        "message":"I opened this store several weeks ago but you are my first customer.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"lankson20"
-            }
-        ]
-    },
-    {
-        "id":"lankson20",
-        "message":"It's the strangest thing but nobody in this town will talk to me. They are very suspicious of outsiders.",
-        "replies":[
-            {
-                "text":"Jolnor runs the game around here. He is a real bitch.",
-                "nextPhraseID":"lankson30"
-            }
-        ]
-    },
-    {
-        "id":"lankson30",
-        "message":"Thank you. I'll talk to Jolnor."
-    },
-    {
         "id":"cithurncatmeow",
         "message":"Meow.....Meow."
     },

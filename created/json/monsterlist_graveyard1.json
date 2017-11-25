@@ -262,15 +262,6 @@
         "damageResistance":3
     },
     {
-        "id":"lankson",
-        "name":"Lankson",
-        "iconID":"monsters_ld1:124",
-        "unique":1,
-        "monsterClass":"humanoid",
-        "spawnGroup":"lankson",
-        "phraseID":"lankson00"
-    },
-    {
         "id":"cithurncat",
         "name":"Cithurn's cat",
         "iconID":"monsters_ld2:103",
