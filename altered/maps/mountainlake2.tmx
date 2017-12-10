@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="22" height="30" tilewidth="32" tileheight="32" nextobjectid="10">
+<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="22" height="30" tilewidth="32" tileheight="32" nextobjectid="10">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer name="Objects" width="22" height="30">
   <data encoding="base64" compression="zlib">
-   eJztUzEOwjAMNPzADJX6MAR/Q7yCJzBQiYEBiQKdWCClAxuCjViNVdc4LTPqSSdC4pwvtgswYMCAAf+PawLgBMvktzjXE1d5nj1fnoXnPaK/EXFMS1PqvT1PCPBU+lKbdDPPLdb/HcZzv9V+Hu48g3amdDnXPq335Dl75T2KKbE5Zz8bpStzHUOMfJPl9TKpf29o59a1IBRpux9WvISsva4T65Zes0qbfjA5fp02Wi5pz4fWtPz2Qc+QpWn5PWD7nOte4vfdX6H9OqUlezQfAUw9ZyN7zX6L4JfrmAtN2rtifJY1ZH7SZL/S50ms9ZwuxgDLsa3J+am+90jfqLY7/NbVoBzyTfTdLELeh1h3gd/B9VopT3lHn/NIPaw768hb+d4H0x2kYQ==
+   eJztUzGOwjAQXPiBKSLlYSfub+hecU+gAOkKCqQLXCoaLoGCDkGHV/GIYVkDNcpIozjRema83oj06NGjx/tjW4g0xLZ4ra55UreP/Is8RdaRu4z+jOpAT5P1zpHrIHI0+qytuvPIn9C9N+FeF95n41ml2mPSnhtdeC3L7hv7Iiv2aE1L3sgzM7rstUo1fCYv62bUPf+D7217oajL2/vw6hnce9sn6LZRc19e7wNE/bS8ajXF7XxYTS/vM9gZ8jS9vL9mJtD31pmVV2Hz2rnjO/ociHxEjgf+GnnrlBd9rEhTv21DfpYt2F81kZdzrmlt53QyFPka+prw1/7uMvemvV2Ee10L9eAz6X8zSb4HWj8CzoF+fZtM1YN7rjL98PZMM2fFvgvnj6OD
   </data>
  </layer>
  <layer name="Above" width="22" height="30">
@@ -203,7 +203,7 @@
    eJzbKMbAsHEUj+JRPIpHMdkYGRCrDp9adDWE9KCrI8ZubACXHmQ7CKnBxic1zIgFxLiH0jBAD2N85uCSIyZNUOo+ctxLCaCle3HlFVLNJCb/keNWYtMrvnwzHDEA99CYKw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="640" width="32" height="256">
    <properties>
     <property name="map" value="mountainlake1"/>
@@ -217,7 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="3" name="maonit_1" type="spawn" x="128" y="480" width="352" height="256">
    <properties>
     <property name="quantity" value="2"/>
