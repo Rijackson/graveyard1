@@ -151,15 +151,15 @@
     },
     {
         "id":"waterwayamushroom",
-        "name":"Poisonous mushroom",
+        "name":"Creeping fungus",
         "iconID":"monsters_ld2:30",
         "maxHP":65,
         "maxAP":10,
         "moveCost":5,
         "monsterClass":"construct",
         "attackDamage":{
-            "min":8,
-            "max":12
+            "min":5,
+            "max":8
         },
         "spawnGroup":"waterwayamushroom",
         "droplistID":"waterwayamushroom",
@@ -168,7 +168,17 @@
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":70,
-        "damageResistance":4
+        "damageResistance":0,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"contagion2",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"waterwayacaterpillar",
@@ -244,7 +254,7 @@
     },
     {
         "id":"waterwaycaverockmonster",
-        "name":"Rockfiend",
+        "name":"Rock fiend",
         "iconID":"monsters_tometik1:46",
         "maxHP":80,
         "maxAP":10,
@@ -259,7 +269,17 @@
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":80,
-        "damageResistance":3
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"petrification",
+                    "magnitude":1,
+                    "duration":4,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"cithurncat",
@@ -278,5 +298,13 @@
         "monsterClass":"animal",
         "spawnGroup":"cithurnsheep",
         "phraseID":"cithurnsheep"
+    },
+    {
+        "id":"aemens",
+        "name":"Aemens",
+        "iconID":"monsters_karvis2:6",
+        "unique":1,
+        "spawnGroup":"aemens",
+        "phraseID":"aemens_0"
     }
 ]

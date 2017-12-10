@@ -1009,12 +1009,82 @@
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"graveyard_corpse",
+                "rewardID":"graveyard_corpse_0",
                 "mapName":"graveyard1"
             },
             {
                 "rewardType":"removeSpawnArea",
-                "rewardID":"graveyard_corpse2",
+                "rewardID":"graveyard_corpse_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_6",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_7",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_8",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_9",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2_5",
                 "mapName":"graveyard1"
             },
             {
@@ -1516,6 +1586,44 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"aemens_0",
+        "message":"Don't you know that it's rude to walk into someone's house without knocking?",
+        "replies":[
+            {
+                "text":"Sorry. I'll leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sorry. I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"aemens_1"
+            }
+        ]
+    },
+    {
+        "id":"aemens_1",
+        "message":"No. And little boys like you should not be wandering around on your own. I'm sure your father would not approve. ",
+        "replies":[
+            {
+                "text":"My father sent me to look for my brother.",
+                "nextPhraseID":"aemens_2"
+            }
+        ]
+    },
+    {
+        "id":"aemens_2",
+        "message":"Then he must be a very bad father. He should look for your brother himself. Tell me, are your father and brother as rude as you?",
+        "replies":[
+            {
+                "text":"Thank you for talking to me. I will leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"They are certainly not as rude as you. Goodbye.",
+                "nextPhraseID":"X"
             }
         ]
     }

@@ -222,25 +222,26 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="waterwayacaterpillar" type="spawn" x="224" y="96" width="224" height="224">
+  <object name="waterwayacaterpillar" type="spawn" x="224" y="64" width="224" height="256">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="waterwayacaterpillar"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="576" y="128" width="96" height="256">
+  <object name="waterwayamushroom" type="spawn" x="544" y="128" width="160" height="256">
    <properties>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="416" y="128" width="160" height="192">
+  <object name="waterwayamushroom_1" type="spawn" x="416" y="128" width="192" height="192">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>
-  <object name="waterwayacaterpillar" type="spawn" x="672" y="64" width="192" height="224">
+  <object name="waterwayacaterpillar_1" type="spawn" x="576" y="64" width="320" height="224">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="5"/>
     <property name="spawngroup" value="waterwayacaterpillar"/>
    </properties>
   </object>

@@ -57,13 +57,13 @@
     {
         "id":"waterwayacavearmor",
         "iconID":"items_tometik3:20",
-        "name":"Tectonic armor",
+        "name":"Knight's hauberk",
         "displaytype":"rare",
         "category":"chmail",
         "equipEffect":{
             "increaseMaxHP":8,
             "increaseAttackChance":-5,
-            "increaseBlockChance":15,
+            "increaseBlockChance":17,
             "increaseDamageResistance":1
         }
     },

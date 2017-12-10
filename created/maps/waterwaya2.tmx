@@ -199,7 +199,7 @@
    eJy1lcENwCAIRVmD/SdoB3CSOkKdoXpoagnCV+K7NCHKBwRKRHQzqVzVnvn7jmyZ9Tsohf8+LCy/ng8vplaHpOSyQq+F+PDO9PXfARJjAmOUHNV+irpqyD7U6h/Jf1ftIvr9LGlztsr7VtLviIhWoyg5SHbW39thnn40f693V2dH6wtU3+OY3FHSb38H2eHI/pXn0bhG74/qW3MnbbP/N4sHXrJXBA==
   </data>
  </layer>
- <layer name="Walkable" width="16" height="30" visible="0">
+ <layer name="Walkable" width="16" height="30">
   <data encoding="base64" compression="zlib">
    eJylk8ENACAIA5nC/VdwQ+OXQOgVE3/SXqveE3GXu1uOhuKhcpDZioPmyXPUfzrn5s985B43/VdajsY2P2WfONzMlYa66F9S3wQ5RzUqDpKBdtB5qvmnN+QwE//ON7PRHpQMEyfNsGUn3XV36LK7/rSvvx+QvNzF
   </data>
@@ -219,46 +219,49 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="waterwayamushroom" type="spawn" x="256" y="128" width="96" height="96">
+  <object name="waterwayamushroom" type="spawn" x="288" y="64" width="128" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="waterwayamushroom"/>
+   </properties>
+  </object>
+  <object name="waterwayamushroom_1" type="spawn" x="64" y="256" width="160" height="160">
    <properties>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="128" y="256" width="64" height="64">
+  <object name="waterwayamushroom_2" type="spawn" x="128" y="544" width="256" height="128">
    <properties>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="192" y="576" width="96" height="96">
+  <object name="waterwayamushroom_3" type="spawn" x="96" y="736" width="256" height="128">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="128" y="800" width="160" height="96">
-   <properties>
-    <property name="spawngroup" value="waterwayamushroom"/>
-   </properties>
-  </object>
-  <object name="waterwayacaterpillar" type="spawn" x="224" y="256" width="128" height="128">
+  <object name="waterwayacaterpillar" type="spawn" x="160" y="224" width="224" height="224">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="waterwayacaterpillar"/>
    </properties>
   </object>
-  <object name="waterwayacaterpillar" type="spawn" x="64" y="640" width="320" height="96">
+  <object name="waterwayacaterpillar_1" type="spawn" x="64" y="640" width="320" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="waterwayacaterpillar"/>
    </properties>
   </object>
-  <object name="waterwayacaterpillar" type="spawn" x="128" y="96" width="160" height="160">
+  <object name="frog" type="spawn" x="64" y="64" width="256" height="192">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="waterwayacaterpillar"/>
+    <property name="spawngroup" value="frog_3"/>
    </properties>
   </object>
-  <object name="waterwayamushroom" type="spawn" x="192" y="416" width="64" height="64">
+  <object name="waterwayamushroom_4" type="spawn" x="64" y="416" width="320" height="160">
    <properties>
+    <property name="quantity" value="3"/>
     <property name="spawngroup" value="waterwayamushroom"/>
    </properties>
   </object>

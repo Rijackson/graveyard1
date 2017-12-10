@@ -221,7 +221,7 @@
   <object name="lostfound1_0" type="sign" x="576" y="448" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="plaguespider_2" type="spawn" x="544" y="64" width="320" height="256">
+  <object name="plaguespider" type="spawn" x="544" y="64" width="320" height="256">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="plaguespider_2"/>

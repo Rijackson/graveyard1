@@ -237,7 +237,7 @@
     <property name="spawngroup" value="plaguespider_1"/>
    </properties>
   </object>
-  <object name="plaguespider_1" type="spawn" x="256" y="480" width="224" height="160">
+  <object name="plaguespider_3" type="spawn" x="256" y="480" width="224" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="plaguespider_1"/>
