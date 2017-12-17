@@ -133,6 +133,18 @@
             {
                 "progress":40,
                 "logText":"Found gem 2 on waytolake6"
+            },
+            {
+                "progress":50,
+                "logText":"Met Aemens"
+            },
+            {
+                "progress":60,
+                "logText":"Was warned about Aemens"
+            },
+            {
+                "progress":70,
+                "logText":"Told Aemens the neighbor warned you about her"
             }
         ]
     }

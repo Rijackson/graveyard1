@@ -304,7 +304,26 @@
         "name":"Aemens",
         "iconID":"monsters_karvis2:6",
         "unique":1,
+        "monsterClass":"humanoid",
         "spawnGroup":"aemens",
         "phraseID":"aemens_0"
+    },
+    {
+        "id":"taret",
+        "name":"Taret",
+        "iconID":"monsters_ld1:132",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"taret",
+        "phraseID":"taret_0"
+    },
+    {
+        "id":"throthaus",
+        "name":"Throthaus",
+        "iconID":"monsters_ld1:64",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "spawnGroup":"throthaus",
+        "phraseID":"throthaus_0"
     }
 ]

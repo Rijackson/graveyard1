@@ -1594,12 +1594,30 @@
         "message":"Don't you know that it's rude to walk into someone's house without knocking?",
         "replies":[
             {
+                "text":"Your neighbor was right. He said you were not always a nice person.",
+                "nextPhraseID":"aemens_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":60
+                    }
+                ]
+            },
+            {
                 "text":"Sorry. I'll leave.",
                 "nextPhraseID":"X"
             },
             {
                 "text":"Sorry. I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
                 "nextPhraseID":"aemens_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":50
             }
         ]
     },
@@ -1623,6 +1641,171 @@
             },
             {
                 "text":"They are certainly not as rude as you. Goodbye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"taret_0",
+        "message":"Hello kid. What can I do for you?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"taret_1"
+            },
+            {
+                "text":"Can you tell me anything about the local area?",
+                "nextPhraseID":"taret_2"
+            }
+        ]
+    },
+    {
+        "id":"taret_1",
+        "message":"Sorry. I don't recall seeing anyone like that.",
+        "replies":[
+            {
+                "text":"OK. Thanks for your time.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Can you tell me anything about the local area?",
+                "nextPhraseID":"taret_2"
+            }
+        ]
+    },
+    {
+        "id":"taret_2",
+        "message":"There's not much to tell. Loneford is mostly a quiet place, although I have heard rumors that there is some criiminal organization based here. Personally, I don't believe it. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"taret_3"
+            }
+        ]
+    },
+    {
+        "id":"taret_3",
+        "message":"The nastiest person in town is probably my neighbor. *laughs*. Be careful about walking in on her!",
+        "replies":[
+            {
+                "text":"I appreciate the warning, but unfortunately it's too late. I already met her.",
+                "nextPhraseID":"taret_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Thanks for the warning.",
+                "nextPhraseID":"taret_4"
+            },
+            {
+                "text":"You are right. I told her you warned me that she was not aways nice to strangers, but I think that just annoyed her.  ",
+                "nextPhraseID":"taret_5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"taret_4",
+        "message":"Is there anything else I can help you with?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"taret_1"
+            }
+        ]
+    },
+    {
+        "id":"aemens_3",
+        "message":"Did he now! Well, I'll have a word or two to say to him later! What do you want?",
+        "replies":[
+            {
+                "text":"Sorry. Nothing. I'll leave.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"aemens_1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"taret_5",
+        "message":"Thanks kid. *sigh* I expect she will be around here later to complain about that. You should be more careful what you say to people.  ",
+        "replies":[
+            {
+                "text":"Sorry. You are right.",
+                "nextPhraseID":"taret_4"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_0",
+        "message":"Is there something I can help you with?",
+        "replies":[
+            {
+                "text":"I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?",
+                "nextPhraseID":"throthaus_1"
+            },
+            {
+                "text":"What do you do here?",
+                "nextPhraseID":"throthaus_2"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_1",
+        "message":"No. Is there anythng else?",
+        "replies":[
+            {
+                "text":"What do you do?",
+                "nextPhraseID":"throthaus_2"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_2",
+        "message":"Like many folk in Loneford, I'm a farmer.",
+        "replies":[
+            {
+                "text":"OK. Thanks. I need to get going.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Do you have anything to trade?",
+                "nextPhraseID":"throthaus_3"
+            }
+        ]
+    },
+    {
+        "id":"throthaus_3",
+        "message":"I'm a farmer, not a shopkeeper. So yes, if you want to buy a cartload, no otherwise.",
+        "replies":[
+            {
+                "text":"OK. Thanks. I need to get going.",
                 "nextPhraseID":"X"
             }
         ]
