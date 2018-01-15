@@ -81,5 +81,66 @@
         "name":"Cithurn's talisman",
         "displaytype":"quest",
         "category":"gem"
+    },
+    {
+        "id":"spore_mush",
+        "iconID":"items_misc_3:82",
+        "name":"Mushroom spores",
+        "hasManualPrice":1,
+        "baseMarketCost":3,
+        "category":"animal"
+    },
+    {
+        "id":"cocoon_caterpillar",
+        "iconID":"items_misc_6:33",
+        "name":"Caterpillar cocoon",
+        "hasManualPrice":1,
+        "baseMarketCost":10,
+        "category":"animal"
+    },
+    {
+        "id":"gem6",
+        "iconID":"items_misc_2:120",
+        "name":"Azure gem",
+        "hasManualPrice":1,
+        "baseMarketCost":20,
+        "category":"gem"
+    },
+    {
+        "id":"club_stone",
+        "iconID":"items_reterski_1:19",
+        "name":"Stone club",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":520,
+        "category":"club",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":8
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":12
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"2"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ring_shield",
+        "iconID":"items_jewelry:5",
+        "name":"Ring of shielding",
+        "displaytype":"rare",
+        "category":"ring",
+        "equipEffect":{
+            "increaseDamageResistance":2
+        }
     }
 ]

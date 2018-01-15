@@ -245,6 +245,7 @@
             "min":5,
             "max":7
         },
+        "droplistID":"waterwaycavebeast",
         "attackCost":3,
         "attackChance":100,
         "criticalSkill":40,
@@ -264,6 +265,7 @@
             "min":6,
             "max":8
         },
+        "droplistID":"waterwaycaverockmonster",
         "attackCost":3,
         "attackChance":60,
         "criticalSkill":10,
