@@ -134,13 +134,14 @@
         }
     },
     {
-        "id":"ring_shield",
+        "id":"ring_resist",
         "iconID":"items_jewelry:5",
-        "name":"Ring of shielding",
+        "name":"Ring of damage resistance",
         "displaytype":"rare",
         "category":"ring",
         "equipEffect":{
-            "increaseDamageResistance":2
+            "increaseBlockChance":0,
+            "increaseDamageResistance":1
         }
     }
 ]

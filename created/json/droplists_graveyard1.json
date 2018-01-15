@@ -166,7 +166,7 @@
                 }
             },
             {
-                "itemID":"ring_shield",
+                "itemID":"ring_resist",
                 "chance":"1",
                 "quantity":{
                     "min":1,
