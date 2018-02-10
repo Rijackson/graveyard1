@@ -1816,5 +1816,61 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"waterwaycaveloot",
+        "message":"You have stumbled upon the remains of an adventurer that came before you. Looking at what is left of their equipment, they were ill-prepared for a place such as this. Now they have no use for their equipment or gold. You debate whether to loot the corpse. In the past you have done worse, but...",
+        "replies":[
+            {
+                "text":"You decide to take everything",
+                "nextPhraseID":"waterwatcaveloot2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"You decide to leave the corpse undisturbed. ",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"There is nothing left to take from the corpse.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"waterwatcaveloot2",
+        "message":"",
+        "rewards":[
+            {
+                "rewardType":"dropList",
+                "rewardID":"waterwaycaveloot"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":80
+            }
+        ]
     }
 ]

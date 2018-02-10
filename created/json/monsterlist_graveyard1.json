@@ -241,6 +241,7 @@
         "maxAP":10,
         "moveCost":5,
         "monsterClass":"construct",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":5,
             "max":7
@@ -251,7 +252,17 @@
         "criticalSkill":40,
         "criticalMultiplier":2.0,
         "blockChance":50,
-        "damageResistance":4
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"vulnerability",
+					"magnitude":1,
+                    "duration":5,
+                    "chance":"15"
+                }
+            ]
+        }
     },
     {
         "id":"waterwaycaverockmonster",
@@ -261,6 +272,7 @@
         "maxAP":10,
         "moveCost":5,
         "monsterClass":"construct",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":6,
             "max":8
@@ -273,7 +285,7 @@
         "blockChance":80,
         "damageResistance":3,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"petrification",
                     "magnitude":1,

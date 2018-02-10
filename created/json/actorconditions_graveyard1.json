@@ -25,5 +25,14 @@
             "increaseReequipCost":0,
             "increaseAttackCost":0
         }
+    },
+    {
+        "id":"vulnerability",
+        "iconID":"actorconditions_1:66",
+        "name":"Vulnerability",
+        "category":"physical",
+        "abilityEffect":{
+            "increaseDamageResistance":-1
+        }
     }
 ]

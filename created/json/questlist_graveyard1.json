@@ -145,6 +145,10 @@
             {
                 "progress":70,
                 "logText":"Told Aemens the neighbor warned you about her"
+            },
+            {
+                "progress":80,
+                "logText":"Looted corpse in warterway cave"
             }
         ]
     }

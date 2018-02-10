@@ -199,7 +199,7 @@
    eJzVls0NwjAMhSNfKk5FrRTEUozACIzAJt2AExe4MwGwELVQVMtqHOeP0k+q2lSOXyy9ODFm4mFNVXh+N+b/G/i+LcTnRHqQY3B8GWNeQr27gDbmaEGO89WbgybHXMwwrvOdoZ+qq51bQ5cSWz/PuYHJl+6trSumfl8s+mwP877lfi+pm8IadAdFb8nVbWB6SulgroPgv6cN964UXeTo8V8Inz+1uhTo03JxpDXVPgf/HalP5p4jFOdnOg7Fc3D+ie2x0H5zeVqln10831tn8q3Zc7G+KuVDmue6XUZXQylvpaz/V3czDq/51hlz7+rohu7FsaTOL9lDYlmqt6/lTPkAbA1DDQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztk2EOgCAIhT2F97+CN+xPbo0JPBCwrdiYlfo+eOnorY07Z4yek5z2l7hISDVrc0i/Kw79zml66kJD2+v1Q6oDWRvJRTw83e9qD6Lh5XIeoRqUS58t6xHOTr+R+SYu9bKCJdUQzUVqqfS5iivN/9y4/+k5g/P9OWZwkeB06Citp16vet2t3+NRJtfKzuJqWtbad+6CRSfyDmYxLWf3dF6AtdAj
   </data>
@@ -224,34 +224,52 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object name="waterwaycavebeast" type="spawn" x="256" y="256" width="96" height="96">
+ <objectgroup name="Spawn">
+  <object name="waterwaycavebeast" type="spawn" x="64" y="64" width="480" height="416">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="waterwaycavebeast"/>
+   </properties>
+  </object>
+  <object name="waterwaycavebeast_3" type="spawn" x="704" y="800" width="192" height="128">
    <properties>
     <property name="spawngroup" value="waterwaycavebeast"/>
    </properties>
   </object>
-  <object name="waterwaycavebeast" type="spawn" x="768" y="736" width="96" height="96">
+  <object name="waterwaycavebeast_2" type="spawn" x="96" y="640" width="224" height="224">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="waterwaycavebeast"/>
    </properties>
   </object>
-  <object name="waterwaycavebeast" type="spawn" x="160" y="768" width="96" height="96">
+  <object name="waterwaycaverockmonster_2" type="spawn" x="576" y="128" width="224" height="224">
    <properties>
-    <property name="spawngroup" value="waterwaycavebeast"/>
-   </properties>
-  </object>
-  <object name="waterwaycaverockmonster" type="spawn" x="608" y="192" width="64" height="64">
-   <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="waterwaycaverockmonster"/>
    </properties>
   </object>
-  <object name="waterwaycaverockmonster" type="spawn" x="416" y="480" width="64" height="64">
+  <object name="waterwaycaverockmonster_3" type="spawn" x="96" y="576" width="224" height="224">
    <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="waterwaycaverockmonster"/>
    </properties>
   </object>
-  <object name="waterwaycaverockmonster" type="spawn" x="192" y="448" width="64" height="64">
+  <object name="waterwaycaverockmonster" type="spawn" x="96" y="128" width="448" height="448">
    <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="waterwaycaverockmonster"/>
+   </properties>
+  </object>
+  <object name="waterwaycaveloot" type="sign" x="640" y="128" width="32" height="32"/>
+  <object name="waterwaycavebeast_4" type="spawn" x="704" y="96" width="224" height="224">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="waterwaycavebeast"/>
+   </properties>
+  </object>
+  <object name="waterwaycaverockmonster_4" type="spawn" x="480" y="576" width="416" height="288">
+   <properties>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="waterwaycaverockmonster"/>
    </properties>
   </object>

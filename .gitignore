@@ -1,4 +1,5 @@
 .project
+.gitignore
 altered/drawable
 altered/drawable/*
 created/drawable
