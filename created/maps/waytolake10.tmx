@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="9">
+<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,17 +190,17 @@
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9l89OwkAQxps9ePJSDwjPoG8MvoHIwQdAIMYmxEQgwQB6qhL+mHAj6skduyMf0+3ugoQvmZSmML/5dnYHiKLja1o6Pm+mY7kDt6qiaFDJXl+p/ZjEG+v4DOBW92C4mF86nuMw5m3lcEyf0GfHwp2ZXs09uR4CmNx339q2TY8mOhalTQ22IK+JYY7M+k6ED66N1dD8Pu0nHe8qX/Pa8H1Bn0sMc66ZS+ByH1DEfVOZv0Q8G1Wyuhcmh2+voObAJa91tZ2DuFgzs5ZwHUMO9vQoangCr1TnCp4jtwvcP3/xZo2QTXlGol+J4EhNC7ikYbzhjsDXXDBd+VkrRw8kl9RS+bzT2M8hdYFF56MmoojbMPsYlUAu7lmRF2TdiJB+m/CsYc4Oaxgw22oWls2r9NtTmWf+TMcyY4rySE/MxHtae+l5beZPXbyXa3Pll6yQ99rW+k4ECe9dLFToLOG17osg4X1TcOU5CJGc4amZjRj3J9v3PWCTmoLbDfAp5/fSMvdYp+XsmgKb1FP5GRsinkdy1qO+z6Posry5ZzbxUmXfF64g8fyRc4hYF+UskPlba5zxsLdyX7iC89pCslq6pnbBfLTtC1egPs7c/dhFvjPrkmuP+OYmCfvZ2oHrE/3eSwPzye+YkNyokHPSjfP1XB/QL0quO/23GDi+o1/1s5fK9pVqTf/xWx3ZRfoBp5Y+KA==
+   eJy9l8FOwkAQhps9ePJSDwjPoG8MvoHIwQdAIMYmxEQgwQB6qhIKJtyIenLH7oSf6XZ3QeKfTMpm2/lmdnanJYr+X/PK//MW2lZ7cOsqika1/PeVOoxJvKm2zwBu/QCGi/ml7TkOY97Wjsf0CfPsWbgLU6vM4+shgMl1961t19Ropm1Z2cZgM8o1McyJWd+ZyINjY7U0f0j7Sdu7Ksa8MXyf0XOJYWaauQIu1wFF3DeV55eIOY57aXz49goqAy7l2lS7PoiLMTOL4uXrFHxwTo8ihifIleJcwzxy+8BlUW0ywcR8UYngSM1LuKRxvMtlZRZmmX/W2lEDySV1VNHvPPZzSH1g0floCCvjtsw+RiXgi2tWlguyboTJfNsw1zJnhzUO6G0NC8uWq8x3oPKc+Zme5eyU+ZE5MRPHtPYy543pP01xL8fm8i9ZIffa1vpOGAnHLhYqtJfwWg+FkXDcFlx5DkIke3hqeiPa/cnueABsUltw+wF5yv69svQ91mk1v6bAJg1UsceGaGL67MTR+77Po+iyuh0zm3ipsu8Ll5G4/8g+RKyLam7I/I01znlYW7kvXMZ+bSZZHR1Tt6Q/2vaFy1AfZ+567CPfmXXJtUd8fZOE9ezswfWJvvfSQH/yHRPiGxVyTvpxMZ7rI+aLkutO/y1Gjnf0q557qe1eKdb0D9/qyC7TD8I3OW0=
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFgxlcFhsYew/T0V5kP1Ji701J0uyE2bWGiYHhEpn24rJzNhMqH2YXiEa3C2TGLRLcjgug2wmzD9l/lNhFil5K45FcNxJjL7XCG91eWphLjL30BofFqGvvdUHi7SU3n1IC5mLJV+SA0wT8+ZgJU90cJghGB5uh6eyaIHFmw8B7ItWBwAFs5QmR6ZuSvLCVDULnkxHuL4F2vkKyF1vaIuS2ehz2wsJ6M5n+egnVR3bZhqbvJglxSW9ATBhtBKrZRO1ymM7l71AEpKZfUtqg5OYNbGAgyvqRDgDO6UA+
+   eJxjYBgFgxlcFhsYew/T0V5kP1Ji701J0uyE2bWGiYHhEpn24rJzNhMqH2YXiEa3C2TGLRLcjgug2wmzD9l/MLtICSsYIMWdyPFIql2UhAcx6Yda4Y1uLy3MJcZeeoPDYtS197og8faSm08pAXOx5CtywGkC/nzMhKluDhMEo4PN0HR2TZA4s2HgPZHqQOAAtvKEyPRNSV7Yygah88kI95dAO18h2YstbRFyWz0Oe2FhvZlMf72E6iO7bEPTd5OEuKQ3ICaMNgLVbKJ2OUzn8ncoAlLTLyltUHLzBjYwEGX9SAcAfxxCIg==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk8ENwDAIAzNF918hG/ZVqaqaggGbPmKJH+RiZOYxxtxFq0sdTCX3qQ5mhovM33sjzApV7orB9sy89WS9emYsX5E/WP3W+yv/Hu7K+5fQzKMZrr5PNKtZTiTPrFLzNpfPUWa3m+2V2mMHm+W5a9cIl5kt9e6z+iv7BBCd+I8=
+   eJztk8sNwCAMQ5mi+6/Ahj1VqiogcX4uEpZyS3g4mH611k+l1SMGs5L7FYPp4SLz714LM0KRu8pga2ZGPV6vmhnJl+UOUr90/sy/hjvzvhKaeTTD0f8TzaqXY8nzqb2r6l2rs8tmV/9ZLYfBzvLM2jXCzcxW9e69+iv7BvMi+uQ=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -216,39 +216,51 @@
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object id="3" name="tunnel2" type="mapchange" x="288" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="waytolake10"/>
+    <property name="place" value="tunnel1"/>
+   </properties>
+  </object>
+  <object id="4" name="tunnel1" type="mapchange" x="288" y="480" width="32" height="32">
+   <properties>
+    <property name="map" value="waytolake10"/>
+    <property name="place" value="tunnel2"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object id="3" name="maonit_1" type="spawn" x="256" y="192" width="640" height="320">
+  <object id="5" name="maonit_1" type="spawn" x="256" y="192" width="640" height="320">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_1"/>
    </properties>
   </object>
-  <object id="4" name="mwolf_2" type="spawn" x="128" y="640" width="544" height="256">
+  <object id="6" name="mwolf_2" type="spawn" x="128" y="640" width="544" height="256">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="mwolf_2"/>
    </properties>
   </object>
-  <object id="5" name="maonit_2" type="spawn" x="256" y="640" width="96" height="96">
+  <object id="7" name="maonit_2" type="spawn" x="256" y="640" width="96" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_2"/>
    </properties>
   </object>
-  <object id="6" name="mwolf_3" type="spawn" x="352" y="224" width="544" height="288">
+  <object id="8" name="mwolf_3" type="spawn" x="352" y="224" width="544" height="288">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="mwolf_3"/>
    </properties>
   </object>
-  <object id="7" name="maonit_1_1" type="spawn" x="800" y="96" width="96" height="160">
+  <object id="9" name="maonit_1_1" type="spawn" x="800" y="96" width="96" height="160">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_1"/>
    </properties>
   </object>
-  <object id="8" name="maonit_2_1" type="spawn" x="864" y="320" width="32" height="64">
+  <object id="10" name="maonit_2_1" type="spawn" x="864" y="320" width="32" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_2"/>

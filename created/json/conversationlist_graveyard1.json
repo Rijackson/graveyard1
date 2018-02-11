@@ -606,7 +606,7 @@
         "message":"You must not be from around here. If you were, you would know that it is impolite to barge into homes without invitation.",
         "replies":[
             {
-                "text":"Sorry. Nice to meet you. I'm $playername.",
+                "text":"Sorry. I didn't mean to be rude. I'm $playername. I come from a small village where people tend to leave their doors open.",
                 "nextPhraseID":"cithurn_62"
             },
             {
@@ -617,7 +617,7 @@
     },
     {
         "id":"cithurn_10",
-        "message":"The surrounding forest is usually quiet but for some time now, it has been under a monster invasion. I am surprised you managed to reach my home.",
+        "message":"The surrounding forest is usually quiet, but for some time now it has been under a monster invasion. I am surprised you managed to reach my home.",
         "replies":[
             {
                 "text":"N",
@@ -827,7 +827,17 @@
     },
     {
         "id":"cithurn_70",
-        "message":"Hmmm..."
+        "message":"Hmmm... I'll work on the parts that aren't dangerous. A brave and expert fighter like yourself is better suited for the dangerous parts.",
+        "replies":[
+            {
+                "text":"Danger is my middle name! I'll help you.",
+                "nextPhraseID":"cithurn_50"
+            },
+            {
+                "text":"Sorry. Flattery doesn't work with me. ",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"cithurn_80",
@@ -1329,7 +1339,7 @@
     },
     {
         "id":"cithurn_62",
-        "message":"Hello $playername. I'm Cithurn.",
+        "message":"Hello $playername. You are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like your small village. My name is Cithurn.",
         "replies":[
             {
                 "text":"N",
