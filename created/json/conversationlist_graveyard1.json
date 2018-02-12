@@ -827,7 +827,7 @@
     },
     {
         "id":"cithurn_70",
-        "message":"Hmmm... I'll work on the parts that aren't dangerous. A brave and expert fighter like yourself is better suited for the dangerous parts.",
+        "message":"Hmmm... I'll work on the parts that aren't dangerous. A brave and expert fighter like yourself is better suited to the dangerous parts.",
         "replies":[
             {
                 "text":"Danger is my middle name! I'll help you.",
@@ -841,7 +841,14 @@
     },
     {
         "id":"cithurn_80",
-        "message":"Well I'm the only one here."
+        "message":"Well I'm the only one here. Perhaps you should leave. Come back when you have learned some manners.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":90
+            }
+        ]
     },
     {
         "id":"cithurncatmeow",
@@ -988,6 +995,12 @@
                         "requireID":"waterwayacave",
                         "value":10,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":90,
+                        "negate":true
                     }
                 ]
             },
@@ -1009,7 +1022,43 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"cithurn_90"
+                "nextPhraseID":"cithurn_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":90,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"cithurn_120",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"cithurn_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":10
+                    }
+                ]
             }
         ]
     },
@@ -1339,7 +1388,7 @@
     },
     {
         "id":"cithurn_62",
-        "message":"Hello $playername. You are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like your small village. My name is Cithurn.",
+        "message":"Well $playername, you are young, and you apologized, so perhaps I will be a little forgiving. Just remember that not everywhere is like your small village. My name is Cithurn.",
         "replies":[
             {
                 "text":"N",
@@ -1407,7 +1456,26 @@
             },
             {
                 "text":"Dangerous? Perhaps I can help?",
-                "nextPhraseID":"cithurn_66"
+                "nextPhraseID":"cithurn_66",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Dangerous? Perhaps I can help?",
+                "nextPhraseID":"cithurn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    }
+                ]
             }
         ]
     },
@@ -1441,11 +1509,17 @@
     },
     {
         "id":"cithurn_67",
-        "message":"I will clarify. A more experienced fighter than you."
+        "message":"I will clarify. A more experienced fighter than you.",
+        "replies":[
+            {
+                "text":"OK. I can take a hint.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"cithurn_51",
-        "message":"Here. Take this talisman. It does much to dispel evil forces. I acquired it long ago, and it has kept me safe over the years. Since you have agreed to help me I think your need is now greater than mine though. My only request is that if you are successful, you return it to me.",
+        "message":"Here. Take this talisman. It does much to dispel evil forces. I acquired it long ago, and it has kept me safe over the years. Since you have agreed to help me I think your need is now greater than mine. My only request is that if you are successful, you return it to me.",
         "replies":[
             {
                 "text":"N",
@@ -1880,6 +1954,20 @@
                 "rewardType":"questProgress",
                 "rewardID":"nondisplay_2",
                 "value":80
+            }
+        ]
+    },
+    {
+        "id":"cithurn_120",
+        "message":"You again? What do you want this time?",
+        "replies":[
+            {
+                "text":"I wish to apologize. I'm $playername. I come from a small village where people tend to leave their doors open. I didn't mean to be rude.",
+                "nextPhraseID":"cithurn_62"
+            },
+            {
+                "text":"Nothing. I'll leave now.",
+                "nextPhraseID":"X"
             }
         ]
     }
