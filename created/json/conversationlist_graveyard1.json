@@ -641,7 +641,7 @@
                 "nextPhraseID":"cithurn_30"
             },
             {
-                "text":"That is interesting.",
+                "text":"That is interesting, but I am supposed to be looking for my brother. I should leave.",
                 "nextPhraseID":"X"
             }
         ],
@@ -834,7 +834,7 @@
                 "nextPhraseID":"cithurn_50"
             },
             {
-                "text":"Sorry. Flattery doesn't work with me. ",
+                "text":"Sorry. Flattery will not persuade me to risk my life for some woods with one old man living in them.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1485,11 +1485,30 @@
         "replies":[
             {
                 "text":"Thanks. Maybe I can help you with whatever is dangerous around here?",
-                "nextPhraseID":"cithurn_66"
+                "nextPhraseID":"cithurn_66",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Thanks. I need to get going.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. Maybe I can help you with whatever is dangerous around here?",
+                "nextPhraseID":"cithurn_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    }
+                ]
             }
         ]
     },
