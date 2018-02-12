@@ -1474,6 +1474,12 @@
                         "requireType":"questProgress",
                         "requireID":"charwood2",
                         "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":35,
+                        "negate":true
                     }
                 ]
             }
@@ -1507,6 +1513,12 @@
                         "requireType":"questProgress",
                         "requireID":"charwood2",
                         "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":35,
+                        "negate":true
                     }
                 ]
             }
