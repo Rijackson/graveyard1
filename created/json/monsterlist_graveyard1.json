@@ -214,7 +214,7 @@
         "id":"tesrekan",
         "name":"Tesrekan",
         "iconID":"monsters_rltiles1:122",
-        "maxHP":180,
+        "maxHP":250,
         "maxAP":10,
         "moveCost":5,
         "unique":1,
@@ -227,11 +227,21 @@
         "phraseID":"tesrekan",
         "droplistID":"tesrekandrop",
         "attackCost":3,
-        "attackChance":150,
+        "attackChance":180,
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":100,
-        "damageResistance":8
+        "damageResistance":8,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fear",
+                    "magnitude":3,
+                    "duration":5,
+                    "chance":"50"
+                }
+            ]
+        }
     },
     {
         "id":"waterwaycavebeast",
@@ -257,7 +267,7 @@
             "conditionsTarget":[
                 {
                     "condition":"vulnerability",
-					"magnitude":1,
+                    "magnitude":1,
                     "duration":5,
                     "chance":"15"
                 }
@@ -339,5 +349,115 @@
         "monsterClass":"humanoid",
         "spawnGroup":"throthaus",
         "phraseID":"throthaus_0"
+    },
+    {
+        "id":"tesrekan_guardian",
+        "name":"Dread guardian",
+        "iconID":"monsters_redshrike1:3",
+        "maxHP":200,
+        "monsterClass":"demon",
+        "attackDamage":{
+            "min":6,
+            "max":11
+        },
+        "spawnGroup":"tesrekan_guardian",
+        "attackCost":3,
+        "attackChance":120,
+        "blockChance":150,
+        "damageResistance":3,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"fear",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"35"
+                }
+            ]
+        }
+    },
+    {
+        "id":"revenant_servant",
+        "name":"Revenant servant",
+        "iconID":"monsters_rltiles2:38",
+        "maxHP":100,
+        "moveCost":4,
+        "monsterClass":"undead",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":2,
+            "max":6
+        },
+        "spawnGroup":"revenant",
+        "attackCost":4,
+        "attackChance":100,
+        "blockChance":110,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"flesh_rot",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
+        }
+    },
+    {
+        "id":"revenant",
+        "name":"Revenant",
+        "iconID":"monsters_rltiles2:37",
+        "maxHP":115,
+        "moveCost":4,
+        "monsterClass":"undead",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":3,
+            "max":8
+        },
+        "spawnGroup":"revenant",
+        "attackCost":3,
+        "attackChance":130,
+        "blockChance":120,
+        "damageResistance":1,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"flesh_rot",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"revenant_ancient",
+        "name":"Ancient revenant",
+        "iconID":"monsters_rltiles2:39",
+        "maxHP":125,
+        "moveCost":3,
+        "monsterClass":"undead",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":4,
+            "max":10
+        },
+        "spawnGroup":"revenant",
+        "attackCost":3,
+        "attackChance":145,
+        "blockChance":135,
+        "damageResistance":2,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"flesh_rot",
+                    "magnitude":3,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     }
 ]

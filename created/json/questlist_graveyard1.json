@@ -153,6 +153,15 @@
             {
                 "progress":90,
                 "logText":"Got repreimanded by Cithurn"
+            },
+            {
+                "progress":100,
+                "logText":"Petted Cithurn's cat",
+                "rewardExperience":25
+            },
+            {
+                "progress":110,
+                "logText":"Have discovered hidden room"
             }
         ]
     }

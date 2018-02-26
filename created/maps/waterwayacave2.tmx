@@ -204,7 +204,7 @@
    eJztk2EOgCAIhT2F97+CN+xPbo0JPBCwrdiYlfo+eOnorY07Z4yek5z2l7hISDVrc0i/Kw79zml66kJD2+v1Q6oDWRvJRTw83e9qD6Lh5XIeoRqUS58t6xHOTr+R+SYu9bKCJdUQzUVqqfS5iivN/9y4/+k5g/P9OWZwkeB06Citp16vet2t3+NRJtfKzuJqWtbad+6CRSfyDmYxLWf3dF6AtdAj
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object name="north2" type="mapchange" x="864" y="0" width="32" height="32">
    <properties>
     <property name="map" value="waterwayacave1"/>
@@ -267,10 +267,16 @@
     <property name="spawngroup" value="waterwaycavebeast"/>
    </properties>
   </object>
-  <object name="waterwaycaverockmonster_4" type="spawn" x="480" y="576" width="416" height="288">
+  <object name="waterwaycaverockmonster_4" type="spawn" x="480" y="608" width="416" height="288">
    <properties>
     <property name="quantity" value="4"/>
     <property name="spawngroup" value="waterwaycaverockmonster"/>
+   </properties>
+  </object>
+  <object name="revenant" type="spawn" x="480" y="640" width="416" height="256">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="revenant"/>
    </properties>
   </object>
  </objectgroup>

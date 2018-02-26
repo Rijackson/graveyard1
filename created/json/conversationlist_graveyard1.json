@@ -127,7 +127,7 @@
     },
     {
         "id":"algore_40",
-        "message":"(Hagle takes another swig from the bottle of Lowyna\u2019s special brew)\nI realized that she would not make it.\nI watched as she suffered in agonizing pain. I knew without treatment she would die in a matter of weeks.",
+        "message":"(Hagale takes another swig from the bottle of Lowyna\u2019s special brew)\nI realized that she would not make it.\nI watched as she suffered in agonizing pain. I knew without treatment she would die in a matter of weeks.",
         "replies":[
             {
                 "text":"N",
@@ -361,12 +361,82 @@
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"graveyard_corpse",
+                "rewardID":"graveyard_corpse_0",
                 "mapName":"graveyard1"
             },
             {
                 "rewardType":"spawnAll",
-                "rewardID":"graveyard_corpse2",
+                "rewardID":"graveyard_corpse_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_5",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_6",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_7",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_8",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_9",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_0",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_1",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_2",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_3",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_4",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse2_5",
                 "mapName":"graveyard1"
             }
         ]
@@ -714,7 +784,7 @@
     },
     {
         "id":"waterwayacaveblock",
-        "message":"A powerful force stops you from moving further into the cave"
+        "message":"The Guardian stares at you. You feel an overwhelming sense of dread, and dare not even approach it."
     },
     {
         "id":"waterwayacavekillboss_10",
@@ -810,11 +880,11 @@
     },
     {
         "id":"tesrekan",
-        "message":"Ah, another mortal that has come to bow before the might of Tesrekan.",
+        "message":"Ah, another puny mortal that has come to die and serve Tesrekan.",
         "replies":[
             {
-                "text":"I didn't bow to Thukuzun and I'm not going to bow to you either.",
-                "nextPhraseID":"F"
+                "text":"N",
+                "nextPhraseID":"tesrekan_1"
             }
         ],
         "rewards":[
@@ -834,7 +904,7 @@
                 "nextPhraseID":"cithurn_50"
             },
             {
-                "text":"Sorry. Flattery will not persuade me to risk my life for some woods with one old man living in them.",
+                "text":"Sorry. Flattery will not persuade me to risk my life for some piece of forest with one old man living in it.",
                 "nextPhraseID":"X"
             }
         ]
@@ -852,7 +922,36 @@
     },
     {
         "id":"cithurncatmeow",
-        "message":"Meow.....Meow."
+        "message":"Meow.....Meow.",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"(You scratch the cat behind the ear.)",
+                "nextPhraseID":"cithurncatmeow_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"(You stroke the cat.)",
+                "nextPhraseID":"cithurncatmeow_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"cithurnsheep",
@@ -1029,6 +1128,12 @@
                         "requireID":"nondisplay_2",
                         "value":90,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":70,
+                        "negate":true
                     }
                 ]
             },
@@ -1057,6 +1162,12 @@
                         "requireType":"questProgress",
                         "requireID":"waterwayacave",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":70,
+                        "negate":true
                     }
                 ]
             }
@@ -1234,6 +1345,50 @@
                         "requireType":"inventoryKeep",
                         "requireID":"tesrekanbone",
                         "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I think I need more help to be able to complete my mission.",
+                "nextPhraseID":"cithurn_51",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I haven't found out what is happening yet, but I wanted to let you know I'm still working on it.",
+                "nextPhraseID":"cithurn_91",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood2",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"waterwayacave",
+                        "value":55,
+                        "negate":true
                     }
                 ]
             }
@@ -2001,5 +2156,99 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"cithurncatmeow_1",
+        "message":"Purr..... Purr.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"cithurncatmeow_2",
+        "message":"Purr..... Purr.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"waterwaycavex_0",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"waterwaycavex_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"waterwaycavex_1",
+        "message":"You have discovered a hidden room!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"tesrekan_1",
+        "message":"I will kill you, and then you will join my army of undead servants and soldiers.",
+        "replies":[
+            {
+                "text":"I just destroyed a lot of your army",
+                "nextPhraseID":"tesrekan_2"
+            },
+            {
+                "text":"If you are so powerful why do you need an army? ",
+                "nextPhraseID":"tesrekan_3"
+            },
+            {
+                "text":"I have destroyed others like you, and I will destroy you!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"tesrekan_2",
+        "message":"All the more reason for me to kill you and replenish what you have destroyed!",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"tesrekan_3",
+        "message":"Insolent human! I will make you my undead slave!",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"cithurn_91",
+        "message":"OK. Thanks for keeping me updated. Please come back when you have more information."
     }
 ]

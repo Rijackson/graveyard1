@@ -187,7 +187,7 @@
  </layer>
  <layer name="Objects" width="30" height="29">
   <data encoding="base64" compression="zlib">
-   eJzNls1OwlAQhUmTbliAoQnv58/Sp3ELLMQlUnwDtD4BxY1xB+oD8ALaSXvs6TBzCwkknuSGckvnmzt/pdP5f3od1tc33dPYTKJ2Vl5cvzvcj9O40WCJHgu/8ouay7qNS67cF82MMwyMvaVz1i/an8Y+V8Tch7j2xxN8A3sR7TMhsXtZxPeqWNfd5rXEXe4LMx/YrF5Sfm4GTfY8KrnM/HFsHKNdwIawwZ0G4nOoNgZrVNgeG4uVDe3n/74n9R6fx+KFlCrugr6jXs4hqStmL4y68uLEa0LP9ZOm31Z/rar8Yn5YXLn/XC2tlPyeGPe1kI9txYXARU9IfzwF7PEMSAPxyIbN58Su5ur+zByuzCKJ19KJBeuF7iNvLJy3T3X7FrA5q9g5/caa+Ws6j+Wnld9vY4/7RtifVb5StXBOnknw08qvKFN9xHXN+YIPmivMdbQ/e7fkp+ZacwC5TCO/7pmrmTwPpkZdsXYqnszmvhWbc3VW6x0D3bVwtZgt4t7R8dVCrYbqGXHuJZ096XO35VTXCeJicdtksb06gjCL2voI8UDtar+ZbTG9d3hbHyEeOga6d1eBc2rf5dlQH3lc/a4B24ut53toPnNf6LnuiWMxUjXHNkZGfq35I/v3cdnvh7yPx4qZKPbc4HKMWGyP5f33t4R4hrjnEOyD+wsV6OuT
+   eJzNls9OwkAQxkmTXjiAoQnv55+jT+O1cBCP2OIboPUJKF6MN1AfgBfQTtqRrx8zW00g8Us2lC47v9nZmVl6vf+n5/H++ap/HJtJ1M0qq+dXh/t2HDdaLNF95Vd5tueiruOaK/OiubGHkfFu6ez1A97PYp8rQu5dvPfHk/qm7EV0yFSJ3fMqvhfVuOy3nyXuMi/McmSzBkn9uRm12VlUc5H55dj4i3YBG8JW7iwQn99qY7DSyvbEGKhibK//+Z7s3+F+LF5IOXEX8F3z5RSSvEL2wsgrL044prBumLT9tupr1Zyv9g+LK/OPzWDl4PfUmGfpeWwbrkq5WhNSHw8Be9gD8kA8inF7ndhlLtdn4XClF0m8lk4sUE8wr+eG0v0OIW9fAjbnDbuE31g9fw37sfy0zvfTeId1I+z35rxyGrpP7Enqp3W+ooLqCPMaz0t9YK4w19Fh792Cn8y1+oCeZR75eY9cZmI/mBl5hdpRPJGNdSs2M9qrdceobjq4LGSLsHY4vizN1VA+a5wHSe9AvO+uM+U80bhY3C5ZbC+PVNqLQnVk5S77jWyL6d3hoTrCHOEYcO2uAvtMyXdZG6ojj8t3jbK92GaO715/5lrkvu4JY5EGbKTG+cpavR9xz7dxXe+/uY8nxEyInRlcjR3PoT2U99/fEsbT4p5KmD+ib7Z371U=
   </data>
  </layer>
  <layer name="Above" width="30" height="29">
@@ -197,10 +197,10 @@
  </layer>
  <layer name="Walkable" width="30" height="29">
   <data encoding="base64" compression="zlib">
-   eJzllEEOwCAIBH1F//8Ff9j01hiUWQXSpJt4qjIsS9qv1vqHz6Nq3kzV3Az/oxfq992POpuZL8r1pOaoSvGdoYjdHetlcKP87/o9eVfBVTOy3mb+E1bcXb90b5Sc6LwquAqbcr1MFD65R31RruWD9EbqnnqIynJnFz3t7FEEl7BnbwjXyjCib5VLaqy+R3Cte15fnmfqxZNSm8zj9PyZewOWo5tH
+   eJzNlNENACEIQ53i9l/BDc39GSPSYiE28cc7eFTQ/rXWH16/qnmWqrkZ/lcvqN+5HvZsLF8o1xPbR1aM7wwpZnfNl8FV+Y/6vYmr4LI92sVmvgknbtQvOjdMn9DzquAybJTr9YThI/+hvlDuzgdSG5L31oOql5FZ9BSZIwUXYVsxHtfaU9TNcpEcp+8K7i6PV5fn+bTPyJs15j4q1ovcTPacewAirZ/x
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
   <object id="1" name="north" type="mapchange" x="320" y="32" width="32" height="32">
    <properties>
     <property name="map" value="waterwaya5"/>
@@ -227,7 +227,7 @@
     <property name="spawngroup" value="waterwaycavebeast"/>
    </properties>
   </object>
-  <object id="5" name="waterwaycaverockmonster" type="spawn" x="96" y="448" width="384" height="320">
+  <object id="5" name="waterwaycaverockmonster" type="spawn" x="96" y="448" width="384" height="288">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="waterwaycaverockmonster"/>
@@ -257,17 +257,14 @@
     <property name="spawngroup" value="waterwaycaverockmonster"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Keys">
-  <object id="10" name="waterwayacaveblock" type="key" x="96" y="768" width="64" height="32">
+  <object id="10" name="tesrekan_guardian" type="spawn" x="96" y="768" width="32" height="32">
    <properties>
-    <property name="phrase" value="waterwayacaveblock"/>
-    <property name="requireId" value="nondisplay_2"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="10"/>
+    <property name="spawngroup" value="tesrekan_guardian"/>
    </properties>
   </object>
-  <object id="11" name="waterwayacaveblock" type="key" x="864" y="832" width="32" height="32">
+ </objectgroup>
+ <objectgroup name="Keys">
+  <object id="11" name="waterwayacaveblock" type="key" x="96" y="736" width="32" height="32">
    <properties>
     <property name="phrase" value="waterwayacaveblock"/>
     <property name="requireId" value="nondisplay_2"/>
