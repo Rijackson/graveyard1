@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="20" height="16">
   <data encoding="base64" compression="zlib">
-   eJydVMsNgzAMZQVz49DO0HFaqQO0kxbE51gkRJkAWIEmSp7yapIDfVLkxMT28ycsRZbNZi1mbeKWPa9mTV5fR/Ra2nsWkEDnz7gL3az02lcj7l4rTgeUEvjOFDem5+8Ax7XfKnFnmyP2bwk+Gfc8y0bFFT6RW+ttLnmwGbzuZPbn/Ne3rulC/DjnIcEJcYBW9Unz4/xeXvayr9Wm4sDHWoQYMQwS1zMqyh34FHGfjeJW+7koZd9/ro3lmfKZQq/qwhzRH8wu4l5N/W95sNH9KKlv1m4sAj9+E7j3MPZPmhHUCu/I1gM8p8Q74j7yTJeJGWL7lK47UEf9PoDUv+OIXBI5/yu/pOe2JQ==
+   eJydVMsNgzAM5dIBzI1DO0PHaaUO0ErdsyA+R5AQZQJgBRoreYoxyYE+yXJiYvvZTpizJJmMzEZWssL7xcjo7GXArjWfY0ADjdvjLGyTsutYFdlzNVkbkJPnO4m8Ibv8Dsi8/K0gu+ca3ye7bsnHlHikSTIoroiJ2mrnw7FY2Kd3trNZX9JtbN3TWfCTNfcRTtd0u6/VnDQ/Wd/H6Y72vVpVHsRYMp8jhJ7CdolC1A58s3DMSnEr3b3IaT9/2RvmGYsZQ6f6IjliPri7yHsz/b+n3kfPIxdzY78h8/zkm8C5p/F/iTuCXuEdcT/Ac4y8IzlH+Le05aIhuYRszYE+6vcBxP4dR/Qcqflf/QNNMrZc
   </data>
  </layer>
  <layer name="Above" width="20" height="16">
@@ -201,7 +201,7 @@
  </layer>
  <layer name="Walkable" width="20" height="16">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJHKGBnA+MhylJpLrDipZuICLwSJMx+bOdj8jC5PbFg+F8TtRhB4LUi8WeiAUHhQEn6E7CSUfrClHWxuJtZMargRV3yTYxY2dbjEiE3vpAJS8zWlZg0WDACZT5XZ
+   eJzbKMbAsJHKGBnA+MhylJpLrDg5ZmIDLwSJMx+bf3HxiXUzMnguiN19MPBakHiz0AG28CDGnbj0EwOITT/YwhGXneT4nRw3osc3JWYRqxfdPnLjmhS3kWMmufl7IDAAV1uYLg==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -209,6 +209,16 @@
    <properties>
     <property name="map" value="waterwaya1"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object name="old_clothes_0" type="script" x="256" y="96" width="32" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="old_crates_0" type="script" x="160" y="128" width="96" height="64">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>

@@ -14,20 +14,19 @@
         "iconID":"items_misc_3:231",
         "name":"LifeTaker",
         "displaytype":"extraordinary",
-        "hasManualPrice":1,
         "baseMarketCost":5045,
         "category":"lsword",
-        "description":"A fine blade enhanced by undead magic.",
+        "description":"A fine blade enhanced by undead forces.",
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":4,
-                "max":6
+                "max":7
             },
             "increaseAttackCost":4,
             "increaseAttackChance":30,
-            "increaseCriticalSkill":3,
-            "increaseBlockChance":15,
-            "setCriticalMultiplier":2.0
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":0,
+            "setCriticalMultiplier":0.0
         },
         "hitEffect":{
             "conditionsTarget":[
@@ -41,7 +40,7 @@
                     "condition":"stunned",
                     "magnitude":1,
                     "duration":2,
-                    "chance":"10"
+                    "chance":"5"
                 }
             ]
         }
@@ -142,6 +141,19 @@
         "equipEffect":{
             "increaseBlockChance":0,
             "increaseDamageResistance":1
+        }
+    },
+    {
+        "id":"tunic_old",
+        "iconID":"items_misc_3:160",
+        "name":"Old tunic",
+        "baseMarketCost":3,
+        "category":"bdy_clth",
+        "description":"This is so old and damaged it's useless.",
+        "equipEffect":{
+            "increaseMoveCost":1,
+            "increaseAttackChance":0,
+            "increaseBlockChance":1
         }
     }
 ]

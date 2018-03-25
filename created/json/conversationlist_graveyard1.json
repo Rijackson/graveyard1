@@ -127,7 +127,7 @@
     },
     {
         "id":"algore_40",
-        "message":"(Hagale takes another swig from the bottle of Lowyna\u2019s special brew)\nI realized that she would not make it.\nI watched as she suffered in agonizing pain. I knew without treatment she would die in a matter of weeks.",
+        "message":"(Hagale takes another swig from the bottle of Lowyna\u2019s special brew)\nI realized that she wouldn't make it.\nI watched as she suffered in agonizing pain. I knew without treatment she would die in a matter of weeks.",
         "replies":[
             {
                 "text":"N",
@@ -925,9 +925,6 @@
         "message":"Meow.....Meow.",
         "replies":[
             {
-                "nextPhraseID":"X"
-            },
-            {
                 "text":"(You scratch the cat behind the ear.)",
                 "nextPhraseID":"cithurncatmeow_1",
                 "requires":[
@@ -1108,14 +1105,15 @@
                 "nextPhraseID":"cithurn_110",
                 "requires":[
                     {
-                        "requireType":"inventoryKeep",
-                        "requireID":"cithurn_talisman",
-                        "value":1
-                    },
-                    {
                         "requireType":"questProgress",
                         "requireID":"waterwayacave",
                         "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":120,
+                        "negate":true
                     }
                 ]
             },
@@ -1168,6 +1166,17 @@
                         "requireID":"waterwayacave",
                         "value":70,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"cithurn_130",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":120
                     }
                 ]
             }
@@ -1261,6 +1270,11 @@
                 "rewardType":"changeMapFilter",
                 "rewardID":"none",
                 "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse2",
+                "mapName":"graveyard0"
             }
         ]
     },
@@ -1509,7 +1523,7 @@
     },
     {
         "id":"algore_61",
-        "message":"I may be a trader, but a trader has to learn how to protect themselves. The first few went down easily, but the leader was an experienced fighter. We fought for over an hour, but eventually I managed to kill him. I searched the body and found an ancient text.",
+        "message":"I may be a trader, but traders have to learn how to protect themselves. The first few went down easily, but the leader was an experienced fighter. We fought for over an hour, but eventually I managed to kill him. I searched the body and found an ancient text.",
         "replies":[
             {
                 "text":"N",
@@ -1519,7 +1533,7 @@
     },
     {
         "id":"algore_x81",
-        "message":"The magical barrier at the cemetary could only be penetrated by someone carrying the text, which itself contained several magical inscriptions.",
+        "message":"The magical barrier at the cemetary could only be penetrated by someone carrying the text, which contained several magical inscriptions.",
         "replies":[
             {
                 "text":"N",
@@ -1570,7 +1584,7 @@
     },
     {
         "id":"graveyardwall_1b",
-        "message":"A magical force prevents you from entering the cemetery."
+        "message":"An unearthly force prevents you from entering the cemetery."
     },
     {
         "id":"cithurn_63",
@@ -1774,7 +1788,14 @@
     },
     {
         "id":"cithurn_111",
-        "message":"Thank you. It seems you do have more honor than I thought."
+        "message":"Thank you. It seems you do have more honor than I thought.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":120
+            }
+        ]
     },
     {
         "id":"cithurn_112",
@@ -1817,7 +1838,14 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"sign_waytolake7b_2"
+                "nextPhraseID":"sign_waytolake7b_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":20
+                    }
+                ]
             }
         ]
     },
@@ -1871,6 +1899,12 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay_2",
                         "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":75,
+                        "negate":true
                     }
                 ]
             },
@@ -1986,6 +2020,12 @@
                         "requireType":"questProgress",
                         "requireID":"nondisplay_2",
                         "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":75,
+                        "negate":true
                     }
                 ]
             }
@@ -2036,6 +2076,13 @@
             {
                 "text":"Sorry. You are right.",
                 "nextPhraseID":"taret_4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":75
             }
         ]
     },
@@ -2250,5 +2297,109 @@
     {
         "id":"cithurn_91",
         "message":"OK. Thanks for keeping me updated. Please come back when you have more information."
+    },
+    {
+        "id":"tesrekan_guardian_0",
+        "message":"You dare approach me? You will die!",
+        "replies":[
+            {
+                "text":"I've killed worse than you!",
+                "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"waterwaycaveblock_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"waterwaycaveblock_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":10
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"tesrekan_guardian",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"waterwaycaveblock_2",
+        "message":"The Guardian stares at you. You feel a sense of dread, but you resist the urge to turn back."
+    },
+    {
+        "id":"cithurn_130",
+        "message":"Thanks for your help, but I don\u2019t think we have anything else to discuss."
+    },
+    {
+        "id":"old_clothes_0",
+        "message":"You found some crates that look as though they have been here for a very long time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"old_clothes_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"old_clothes_4"
+            }
+        ]
+    },
+    {
+        "id":"old_clothes_1",
+        "message":"One for the crates has some old, tattered clothing in it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"old_clothes_2"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"old_clothes_3"
+            }
+        ]
+    },
+    {
+        "id":"old_clothes_2",
+        "message":"(Take the clothes)",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"tunic_old",
+                "value":4
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"old_clothes_3",
+        "message":"(Leave the clothes)"
+    },
+    {
+        "id":"old_clothes_4",
+        "message":"The crates are empty now"
+    },
+    {
+        "id":"old_crates_0",
+        "message":"You found some crates that look as though they have been here for a very long time."
     }
 ]

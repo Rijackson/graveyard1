@@ -147,6 +147,10 @@
                 "logText":"Told Aemens the neighbor warned you about her"
             },
             {
+                "progress":75,
+                "logText":"Taret tells you to be more careful what you say"
+            },
+            {
                 "progress":80,
                 "logText":"Looted corpse in warterway cave"
             },
@@ -162,6 +166,14 @@
             {
                 "progress":110,
                 "logText":"Have discovered hidden room"
+            },
+            {
+                "progress":120,
+                "logText":"Returned Cithurn's talisman after initially saying you would keep it."
+            },
+            {
+                "progress":130,
+                "logText":"Found old clothes"
             }
         ]
     }
