@@ -66,7 +66,7 @@
             },
             {
                 "progress":15,
-                "logText":"Cithurn says that the surrounding forest has been under invasion by monsters for several weeks."
+                "logText":"Cithurn told me that the surrounding forest has been under invasion by monsters for several weeks."
             },
             {
                 "progress":20,
@@ -102,13 +102,13 @@
             },
             {
                 "progress":60,
-                "logText":"I have presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman.",
+                "logText":"I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman.",
                 "rewardExperience":7000,
                 "finishesQuest":1
             },
             {
                 "progress":70,
-                "logText":"I have presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work.",
+                "logText":"I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work.",
                 "rewardExperience":4500,
                 "finishesQuest":1
             }

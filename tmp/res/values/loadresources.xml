@@ -11,7 +11,7 @@
         <item>@raw/actorconditions_v0611_2</item>
         <item>@raw/actorconditions_v0612_2</item>
         <item>@raw/actorconditions_v070</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/actorconditions_graveyard1</item>
     </array>
 
@@ -39,7 +39,7 @@
         <item>@raw/itemlist_v070_questitems</item>
         <item>@raw/itemlist_shortcut_lodar</item>
         <item>@raw/itemlist_pathway_fallhaven</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/itemlist_graveyard1</item>
     </array>
 
@@ -62,7 +62,7 @@
         <item>@raw/droplists_v070_mobs</item>
         <item>@raw/droplists_shortcut_lodar</item>
         <item>@raw/droplists_pathway_fallhaven</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/droplists_graveyard1</item>
     </array>
 
@@ -82,7 +82,7 @@
         <item>@raw/questlist_shortcut_lodar</item>
         <item>@raw/questlist_pathway_fallhaven</item>
         <item>@raw/questlist_halvor_surprise</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/questlist_graveyard1</item>
     </array>
 
@@ -243,7 +243,7 @@
         <item>@raw/conversationlist_pathway_fallhaven</item>
         <item>@raw/conversationlist_halvor_surprise</item>
         <item>@raw/conversationlist_toszylae_fix</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/conversationlist_graveyard1</item>
     </array>
 
@@ -274,7 +274,7 @@
         <item>@raw/monsterlist_v070_npcs</item>
         <item>@raw/monsterlist_pathway_fallhaven</item>
         <item>@raw/monsterlist_halvor_surprise</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/monsterlist_graveyard1</item>
     </array>
 
@@ -689,7 +689,7 @@
         <item>@xml/stoutford_smith</item>
         <item>@xml/stoutford_smith_basement</item>
         <item>@xml/stoutford_tavern</item>
-        <!--Added by ATCS v0.6.10 for project graveyard1-->
+        <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@xml/fields11a</item>
         <item>@xml/fields11b</item>
         <item>@xml/graveyard0</item>
@@ -726,7 +726,6 @@
         <item>@xml/waytolake7b</item>
         <item>@xml/waytolake8</item>
         <item>@xml/waytolake9</item>
-        <item>@xml/worldmap.xml</item>
     </array>
 
     </resources>

@@ -239,10 +239,10 @@
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object name="graveyard_corpse_0" type="spawn" x="96" y="224" width="192" height="192">
+  <object name="graveyard_corpse_0" type="spawn" x="64" y="192" width="224" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -251,17 +251,17 @@
     <property name="spawngroup" value="graveyardking"/>
    </properties>
   </object>
-  <object name="graveyard_corpse_1" type="spawn" x="96" y="416" width="192" height="224">
+  <object name="graveyard_corpse_1" type="spawn" x="64" y="416" width="224" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
-  <object name="graveyard_corpse_2" type="spawn" x="96" y="640" width="224" height="128">
+  <object name="graveyard_corpse_2" type="spawn" x="64" y="640" width="256" height="128">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -283,52 +283,52 @@
     <property name="spawngroup" value="graveyard_corpse2"/>
    </properties>
   </object>
-  <object name="graveyard_corpse_3" type="spawn" x="288" y="224" width="128" height="192">
+  <object name="graveyard_corpse_3" type="spawn" x="288" y="192" width="128" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
-  <object name="graveyard_corpse_4" type="spawn" x="416" y="224" width="160" height="192">
+  <object name="graveyard_corpse_4" type="spawn" x="416" y="192" width="160" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_5" type="spawn" x="288" y="416" width="160" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_6" type="spawn" x="448" y="416" width="128" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_7" type="spawn" x="320" y="640" width="256" height="128">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_8" type="spawn" x="384" y="768" width="192" height="96">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_9" type="spawn" x="64" y="768" width="192" height="96">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -350,6 +350,18 @@
     <property name="spawngroup" value="graveyard_corpse2"/>
    </properties>
   </object>
+  <object name="graveyard_corpse_entrance" type="spawn" x="256" y="160" width="160" height="64">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
+  <object name="graveyard_corpse_boss_patrol" type="spawn" x="256" y="704" width="128" height="96">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="graveyard_corpse"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="graveyardenterance" type="key" x="320" y="96" width="32" height="32">
@@ -362,14 +374,14 @@
   </object>
  </objectgroup>
  <objectgroup name="Script">
-  <object name="graveyardbosskill_10" type="script" x="288" y="736" width="64" height="64">
+  <object name="graveyardday" type="script" x="256" y="704" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object name="graveyardday" type="script" x="256" y="704" width="128" height="32">
+  <object name="graveyardbosskill_10" type="script" x="288" y="800" width="64" height="64">
    <properties>
-    <property name="when" value="enter"/>
+    <property name="when" value="always"/>
    </properties>
   </object>
  </objectgroup>

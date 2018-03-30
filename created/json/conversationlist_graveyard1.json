@@ -194,7 +194,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"graveyard_quest",
-                        "value":80,
+                        "value":40,
                         "negate":true
                     }
                 ]
@@ -2362,21 +2362,21 @@
     },
     {
         "id":"old_clothes_1",
-        "message":"One for the crates has some old, tattered clothing in it.",
+        "message":"One of the crates has some old, tattered clothing in it.",
         "replies":[
             {
-                "text":"N",
+                "text":"(Take the clothes)",
                 "nextPhraseID":"old_clothes_2"
             },
             {
-                "text":"N",
-                "nextPhraseID":"old_clothes_3"
+                "text":"(Leave the clothes)",
+                "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"old_clothes_2",
-        "message":"(Take the clothes)",
+        "message":"The clothes smell musty and are falling apart.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -2389,10 +2389,6 @@
                 "value":130
             }
         ]
-    },
-    {
-        "id":"old_clothes_3",
-        "message":"(Leave the clothes)"
     },
     {
         "id":"old_clothes_4",

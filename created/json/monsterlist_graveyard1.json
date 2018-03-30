@@ -39,7 +39,7 @@
     },
     {
         "id":"graveyardking",
-        "name":"Graveyard key holder",
+        "name":"Graveyard King",
         "iconID":"monsters_tometik1:70",
         "maxHP":300,
         "maxAP":12,
@@ -48,16 +48,16 @@
         "monsterClass":"undead",
         "attackDamage":{
             "min":20,
-            "max":50
+            "max":35
         },
         "spawnGroup":"graveyardking",
         "phraseID":"graveyardking_1",
         "droplistID":"graveyardkingdrop",
         "attackCost":3,
-        "attackChance":100,
+        "attackChance":120,
         "criticalSkill":20,
         "criticalMultiplier":3.0,
-        "blockChance":100,
+        "blockChance":130,
         "damageResistance":10,
         "hitEffect":{
             "increaseCurrentAP":{
@@ -96,14 +96,14 @@
         "id":"graveyard_corpse",
         "name":"Graveyard corpse",
         "iconID":"monsters_zombie1:0",
-        "maxHP":25,
+        "maxHP":50,
         "maxAP":10,
-        "moveCost":3,
+        "moveCost":5,
         "monsterClass":"undead",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":4,
-            "max":6
+            "min":5,
+            "max":8
         },
         "spawnGroup":"graveyard_corpse",
         "droplistID":"graveyardcorpse",
@@ -118,14 +118,14 @@
         "id":"graveyard_corpse2",
         "name":"Angry graveyard corpse",
         "iconID":"monsters_zombie2:0",
-        "maxHP":30,
+        "maxHP":65,
         "maxAP":10,
-        "moveCost":3,
+        "moveCost":5,
         "monsterClass":"undead",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":6,
-            "max":7
+            "max":12
         },
         "spawnGroup":"graveyard_corpse2",
         "phraseID":"graveyard_corpse1",
@@ -158,7 +158,7 @@
         "blockChance":70,
         "damageResistance":0,
         "hitEffect":{
-            "conditionsSource":[
+            "conditionsTarget":[
                 {
                     "condition":"contagion2",
                     "magnitude":1,
@@ -418,34 +418,6 @@
                     "magnitude":2,
                     "duration":3,
                     "chance":"20"
-                }
-            ]
-        }
-    },
-    {
-        "id":"revenant_ancient",
-        "name":"Ancient revenant",
-        "iconID":"monsters_rltiles2:39",
-        "maxHP":125,
-        "moveCost":3,
-        "monsterClass":"undead",
-        "movementAggressionType":"wholeMap",
-        "attackDamage":{
-            "min":4,
-            "max":10
-        },
-        "spawnGroup":"revenant",
-        "attackCost":3,
-        "attackChance":145,
-        "blockChance":135,
-        "damageResistance":2,
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"flesh_rot",
-                    "magnitude":3,
-                    "duration":3,
-                    "chance":"25"
                 }
             ]
         }

@@ -227,11 +227,15 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="graveyard_quest_begin" type="sign" x="288" y="192" width="96" height="64"/>
   <object name="east" type="mapchange" x="384" y="32" width="32" height="128">
    <properties>
     <property name="map" value="waterway4"/>
     <property name="place" value="west2"/>
+   </properties>
+  </object>
+  <object name="graveyard_quest_begin" type="script" x="288" y="192" width="96" height="64">
+   <properties>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
