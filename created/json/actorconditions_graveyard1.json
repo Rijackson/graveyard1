@@ -31,6 +31,9 @@
         "iconID":"actorconditions_1:66",
         "name":"Vulnerability",
         "category":"physical",
+        "roundEffect":{
+            "visualEffectID":"blueSwirl"
+        },
         "abilityEffect":{
             "increaseDamageResistance":-1
         }
@@ -50,6 +53,23 @@
         },
         "abilityEffect":{
             "increaseBlockChance":-5
+        }
+    },
+    {
+        "id":"drain_life",
+        "iconID":"actorconditions_1:83",
+        "name":"Drain life",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-1
+            }
+        },
+        "abilityEffect":{
+            "increaseMaxHP":0,
+            "increaseMaxAP":-1
         }
     }
 ]

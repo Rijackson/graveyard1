@@ -216,7 +216,7 @@
  <objectgroup name="Spawn">
   <object name="plaguesp" type="spawn" x="96" y="64" width="352" height="160">
    <properties>
-    <property name="quantity" value="5"/>
+    <property name="quantity" value="8"/>
     <property name="spawngroup" value="plaguesp_1"/>
    </properties>
   </object>

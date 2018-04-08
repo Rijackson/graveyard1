@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="waterwayacave" x="195" y="188">
+    <map id="waterwayacave1" x="207" y="188"/>
+    <map id="waterwayacave2" x="207" y="218"/>
+    <map id="waterwayacave3" x="215" y="249"/>
+    <map id="waterwayacave4" x="195" y="280"/>
+    <map id="waterwayacavex" x="246" y="269"/>
+  </segment>
   <segment id="bwentry" x="14" y="387">
     <map id="blackwater_mountain5a" x="14" y="387"/>
     <map id="blackwater_mountain5" x="35" y="387"/>
-    <map id="blackwater_mountain5c" x="35" y="403"/>
+    <map id="blackwater_mountain5c" x="40" y="403"/>
     <map id="blackwater_mountain9" x="51" y="400"/>
   </segment>
   <segment id="bwentry2" x="46" y="368">

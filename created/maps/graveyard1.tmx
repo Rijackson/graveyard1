@@ -192,7 +192,7 @@
  </layer>
  <layer name="Objects" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJytVT1PG0EQPaV24T0pSE5JQc3fS1DSI5T0ARP+ACYkXcqAxJ1rJNs6bKSkICjmo4I27NPO0z6v9g6KjLTasXd27s17s7vzQVFc+nHXMcPGa0Xxz3XH3lrszTMxNzbXLh/LGH4bNu/I99OPE4tFTmLQPIxJcSoezhcujPe9onjoh5yPfv7Qi2vpHuBbDAJHb33cu45x3g/fx9wWs9WL2JF32//+bbg33oT52sV6afhvswx+5f1T4/mXn3d6kcdbywn74uMbF33YzIXaYff91bWxi3t2MjjxXfRLbfiOysBZnQz2FXWDX1nOb8LttnB25tcnLu5B/L1pRJwHhu3KRZ6Rkz2wSGqfJrXT+Bu5v5YRM//P8VlL7VofOFtm1uYu7pm08MnaqS8xbZaRS+jL/kB8ZXF/XDvO/UxNtKH9nrjVtXUXa09xwkamtdYOY080mTX6OZzHosGZ7YVex4IJ3JIjaD61WOqew4mali7W1BiPjfBSu9UeGL5Ad61JdRlJHu2BQ8PRhjOtr7GeJ76ZnP/a4rjWhlP1pH8uZ7wyfvdFS+35HM609olopWujcjWOOBv3/HmHLa3+A+ld1v73heedeYaSg2ecPu83+srnokN36DmTXsr1ufrK53fl03BdS43UFgZ9eM+fyjuZnveTjO7q46365MdHe3PIEc/pur13Xbqz31gT1wavwj6+AemdmOvPqWkLq6R2rL2Wu0ffkCuJa7s/c/f3Z7+2a2PPepA90xhH4DnFyX0/1uL+sfhdg3v2Epzz/zgD5xNw5p4r
+   eJytVbFuFDEQtegsXRGvRKSjTEFNDn4gET9wJ34GEPRRlPSQS/IDhAQ6ShKJ26sjcaflDokUUSQSqKAFP3lePGe8voaRRvaux+M3b2bsWdeYr15/FEbIeNWYP65seyO210tsrmWsXd6WNjwbMiv4++j1VGzhkxi0H9qkODUejl9c0BcdY36tBJ+//fiyE9fSPcA37waOnnq7ZwU9XwnnY2yzed6J2OF3y39fCO7798J45WK8FPzbsMb0vD70eub3rPvxmx+3O5HHG/EJOaiMaVycQ6YuxA756cfHNq6NXZjj33YG58iFeqkF39sqcLYhmCDANLDBjoJ5X3y+U9xuKc4+eT+fXcz1ExvwkQfMDyWeS8UNfLIG5kns4AbcMj4Kv+H7uIpn8H+Oz1rFzpggj+zid9s8x2eaX2LqS557NsYAfsnVuqy14dzPxEQZVsH/wC6urbl2nCfe7khyncbHmmgyazr2FCfrGIrcI6ZNG8663e9izMj5xAVb/GvjEzF9dzEm1BG4aBQvtVusgWEh76XcQo5UnbE+gO+N4FiWdwrqaOQivqmq8VrVRu3K/U5hH5M/fMM/+N1XudQ1n+Ls2X91IPU+kbzzTgIPm6oXmKPGLe93CLgCPvQ4cvZAcPWT80v9Tj/DapGzY5Vr3omcaz7nmX6nIJ9TF2tJ9/+yfn+va0lwXanYz9U9d1LFmM/kXcj1+6nCeZDEB8Fbtet1R94ccsQ+XZP3rq0+9T3PmLjWvRP28Q1I78RcfU4kt5CRih1rd9XdwzMh6T2f4gRvufv7lV97LbonNciaaYQj8Jzi5L4Pq3H/WM1Lyj17Cc7ZfxyB8y8I9Ie/
   </data>
  </layer>
  <layer name="Layer1" width="21" height="30" visible="0">
@@ -202,12 +202,12 @@
  </layer>
  <layer name="Above" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCvJwHBHEpVGBjD+HUlUMXx6cIGNQHWb0NTekcSthlhzQeCpAIR+JoApB3MnLjsJAXEmwmruQc28CKQvQdmbSbBnMxb9MPCQgDlPsfgZHTwi0c9iUD+Lo9H0AujpBBcg5D5kcfR4p7efQABb/A42QE64LBDCLr6ZiLQ5kADm16EQL9gAcvgORHqmBsBWLwwWQGmYIscPKfXBUAasgrS3Az3NEFvOUCuPzOLBziZWDy0BAPOlLvE=
+   eJxjYGBguCvJwHBHEpVGBjD+HUlUMXx6cIGNQHWb0NTekcSthlhzQeCpAIR+JoApB3MnLjsJAXEmwmruQc28CKQvQdmbSbBnMxb9MPCQgDlPsfgZGThxMjA8ItHPYlA/i6PRtAYgt4IAejoBAWxhg+wuXG50gZqJHu+U+AlmJqkAmx8oNRMUZo449AZhEV8ghN88asb1ZgJpExfA5R9KALbwxeZXfHFEjJnEAHxhTIqZxIYvue7EBwJJNNMIh3ps9QIlwImKfoXFE7nhhxw/6PUBNeLEGM0MbPmd3oBVkPZ2oKcZYvMBtcq2WTzY2cTqoSUAABG3Nqk=
   </data>
  </layer>
  <layer name="Walkable" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVlFEKwCAMQz3F7n8Fb7gvYUhNXkTGVigWF2ParvartW58mMMNLMFRbHo3xSeYeT3hu1xPLcRcDSvMHCuc60PFSzRTXqfT8a1yV9/S3JUlWikP4SRnVOxmdceS3JVewvdW35P+KU5a0915r9bqzIl/vtKc8pKaf3HeiVaFdbHiVH1Xe2l/6FtAdM7YHc7V+7S6W/X7L34DWUMDsg==
+   eJzNU9sNwCAIdIruv4Ib9svEELgH+iEJqVI87wTmN8YkvozlrVwlT81171bznZz4veFdrJ1LZSd42dqtB+O07x3uCLfaI9wsHs+o74I4xvPIXMxufyF92VlFu9qfHT2oF6s7He2s1ky7o6/CVvtdNUd7/KfElXpVXBhPprOa+9OeR+tu3bO7EG8F49a8KzG3PuiNFe1oljuY1dyhN2RYr/sP6BApAg==
   </data>
  </layer>
  <layer name="Layer2" width="21" height="30" visible="0">
@@ -242,7 +242,7 @@
   <object name="graveyard_corpse_0" type="spawn" x="64" y="192" width="224" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -254,14 +254,13 @@
   <object name="graveyard_corpse_1" type="spawn" x="64" y="416" width="224" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_2" type="spawn" x="64" y="640" width="256" height="128">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -286,14 +285,14 @@
   <object name="graveyard_corpse_3" type="spawn" x="288" y="192" width="128" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_4" type="spawn" x="416" y="192" width="160" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -307,28 +306,25 @@
   <object name="graveyard_corpse_6" type="spawn" x="448" y="416" width="128" height="224">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_7" type="spawn" x="320" y="640" width="256" height="128">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_8" type="spawn" x="384" y="768" width="192" height="96">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_9" type="spawn" x="64" y="768" width="192" height="96">
    <properties>
     <property name="active" value="false"/>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -350,15 +346,15 @@
     <property name="spawngroup" value="graveyard_corpse2"/>
    </properties>
   </object>
-  <object name="graveyard_corpse_entrance" type="spawn" x="256" y="160" width="160" height="64">
+  <object name="graveyard_corpse_entrance" type="spawn" x="224" y="160" width="160" height="64">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object name="graveyard_corpse_boss_patrol" type="spawn" x="256" y="704" width="128" height="96">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
@@ -373,8 +369,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Script">
-  <object name="graveyardday" type="script" x="256" y="704" width="128" height="32">
+ <objectgroup name="Script" visible="0">
+  <object name="graveyardday" type="script" x="256" y="768" width="128" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -385,7 +381,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
+ <objectgroup name="Replace" visible="0">
   <object name="graveyard_quest:50" type="replace" x="96" y="224" width="32" height="32">
    <properties>
     <property name="Objects" value="Layer1"/>

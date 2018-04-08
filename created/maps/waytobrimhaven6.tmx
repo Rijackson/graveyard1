@@ -220,7 +220,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object name="sign_cave_entrance" type="sign" x="800" y="96" width="32" height="32"/>
+  <object name="sign_cave_entrance" type="sign" x="800" y="64" width="32" height="96"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="forestwolf2" type="spawn" x="96" y="64" width="640" height="96">

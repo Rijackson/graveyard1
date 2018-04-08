@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="waterwayacave" x="195" y="188">
+    <map id="waterwayacave1" x="207" y="188"/>
+    <map id="waterwayacave2" x="207" y="218"/>
+    <map id="waterwayacave3" x="215" y="249"/>
+    <map id="waterwayacave4" x="195" y="280"/>
+    <map id="waterwayacavex" x="246" y="269"/>
+  </segment>
+</worldmap>

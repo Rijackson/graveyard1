@@ -96,46 +96,65 @@
         "id":"graveyard_corpse",
         "name":"Graveyard corpse",
         "iconID":"monsters_zombie1:0",
-        "maxHP":50,
+        "maxHP":70,
         "maxAP":10,
-        "moveCost":5,
+        "moveCost":3,
         "monsterClass":"undead",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":5,
-            "max":8
+            "max":15
         },
         "spawnGroup":"graveyard_corpse",
         "droplistID":"graveyardcorpse",
         "attackCost":3,
-        "attackChance":60,
+        "attackChance":170,
         "criticalSkill":5,
         "criticalMultiplier":2.0,
-        "blockChance":35,
-        "damageResistance":3
+        "blockChance":135,
+        "damageResistance":9,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"drain_life",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"graveyard_corpse2",
         "name":"Angry graveyard corpse",
         "iconID":"monsters_zombie2:0",
-        "maxHP":65,
+        "maxHP":90,
         "maxAP":10,
-        "moveCost":5,
+        "moveCost":3,
         "monsterClass":"undead",
         "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":6,
-            "max":12
+            "max":19
         },
         "spawnGroup":"graveyard_corpse2",
         "phraseID":"graveyard_corpse1",
         "droplistID":"gold200",
         "attackCost":3,
-        "attackChance":65,
+        "attackChance":190,
         "criticalSkill":10,
         "criticalMultiplier":2.0,
-        "blockChance":40,
-        "damageResistance":4
+        "blockChance":165,
+        "damageResistance":11,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"30"
+                }
+            ]
+        }
     },
     {
         "id":"waterwayamushroom",

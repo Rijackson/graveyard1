@@ -325,6 +325,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"graveyardwall_done",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"graveyard_quest",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"graveyardwall_2",
                 "requires":[
                     {
@@ -336,6 +347,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"graveyardtext",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"graveyard_quest",
+                        "value":70,
+                        "negate":true
                     }
                 ]
             },
@@ -1275,6 +1292,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"graveyard_corpse2",
                 "mapName":"graveyard0"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_entrance",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"graveyard_corpse_boss_patrol",
+                "mapName":"graveyard1"
             }
         ]
     },
@@ -2177,7 +2204,6 @@
     },
     {
         "id":"waterwatcaveloot2",
-        "message":"",
         "rewards":[
             {
                 "rewardType":"dropList",
@@ -2228,7 +2254,6 @@
     },
     {
         "id":"waterwaycavex_0",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -2281,6 +2306,7 @@
         "message":"All the more reason for me to kill you and replenish what you have destroyed!",
         "replies":[
             {
+                "text":"An army with no leader is not an army, so I will destroy you!",
                 "nextPhraseID":"F"
             }
         ]
@@ -2290,6 +2316,7 @@
         "message":"Insolent human! I will make you my undead slave!",
         "replies":[
             {
+                "text":"You don't have what it takes!",
                 "nextPhraseID":"F"
             }
         ]
@@ -2340,7 +2367,6 @@
     },
     {
         "id":"old_clothes_0",
-        "message":"You found some crates that look as though they have been here for a very long time.",
         "replies":[
             {
                 "text":"N",
@@ -2362,7 +2388,7 @@
     },
     {
         "id":"old_clothes_1",
-        "message":"One of the crates has some old, tattered clothing in it.",
+        "message":"You found some crates that look as though they have been here for a very long time. One of the crates has some old, tattered clothing in it.",
         "replies":[
             {
                 "text":"(Take the clothes)",
@@ -2392,10 +2418,14 @@
     },
     {
         "id":"old_clothes_4",
-        "message":"The crates are empty now"
+        "message":"You found some crates that look as though they have been here for a very long time. The crates are empty now"
     },
     {
         "id":"old_crates_0",
         "message":"You found some crates that look as though they have been here for a very long time."
+    },
+    {
+        "id":"graveyardwall_done",
+        "message":"The cemetery is quiet now"
     }
 ]
