@@ -46,6 +46,7 @@
         "moveCost":5,
         "unique":1,
         "monsterClass":"undead",
+        "movementAggressionType":"none",
         "attackDamage":{
             "min":20,
             "max":35
@@ -54,40 +55,22 @@
         "phraseID":"graveyardking_1",
         "droplistID":"graveyardkingdrop",
         "attackCost":3,
-        "attackChance":120,
+        "attackChance":220,
         "criticalSkill":20,
         "criticalMultiplier":3.0,
-        "blockChance":130,
-        "damageResistance":10,
+        "blockChance":185,
+        "damageResistance":12,
         "hitEffect":{
             "increaseCurrentAP":{
-                "min":2,
-                "max":3
+                "min":0,
+                "max":0
             },
             "conditionsTarget":[
                 {
-                    "condition":"chaotic_grip",
-                    "magnitude":2,
+                    "condition":"drain_life",
+                    "magnitude":3,
                     "duration":3,
-                    "chance":"25"
-                },
-                {
-                    "condition":"chaotic_curse",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"25"
-                },
-                {
-                    "condition":"stunned",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"20"
-                },
-                {
-                    "condition":"concussion",
-                    "magnitude":2,
-                    "duration":3,
-                    "chance":"20"
+                    "chance":"50"
                 }
             ]
         }
@@ -149,6 +132,7 @@
         "hitEffect":{
             "conditionsTarget":[
                 {
+                    "condition":"drain_life",
                     "magnitude":2,
                     "duration":3,
                     "chance":"30"

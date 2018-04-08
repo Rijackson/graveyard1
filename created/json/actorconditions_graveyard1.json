@@ -59,6 +59,7 @@
         "id":"drain_life",
         "iconID":"actorconditions_1:83",
         "name":"Drain life",
+        "category":"physical",
         "isStacking":1,
         "roundEffect":{
             "visualEffectID":"redSplash",
