@@ -215,7 +215,7 @@
  <objectgroup name="Spawn">
   <object name="maonit_1" type="spawn" x="64" y="128" width="416" height="160">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="4"/>
     <property name="spawngroup" value="maonit_1"/>
    </properties>
   </object>

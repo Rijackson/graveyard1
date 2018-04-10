@@ -239,7 +239,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="">
+ <objectgroup name="Spawn">
   <object name="graveyard_traveler" type="spawn" x="128" y="128" width="32" height="32">
    <properties>
     <property name="spawngroup" value="graveyard_traveler"/>
@@ -247,7 +247,7 @@
   </object>
   <object name="graveyard_corpse2" type="spawn" x="192" y="352" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="graveyard_corpse"/>
+    <property name="spawngroup" value="graveyard_corpse3"/>
    </properties>
   </object>
  </objectgroup>

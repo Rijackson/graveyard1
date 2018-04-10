@@ -455,6 +455,16 @@
                 "rewardType":"spawnAll",
                 "rewardID":"graveyard_corpse2_5",
                 "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_entrance",
+                "mapName":"graveyard1"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"graveyard_corpse_boss_kill",
+                "mapName":"graveyard1"
             }
         ]
     },

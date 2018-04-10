@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJytVU1rFEEQbbw17CG1YGA95uDZrP6BhPyBDf4ZFb2HoHfNh3/AmOjNowm4s+eAu4y7AT1IIIk5xav2o+vZtZ2eiYIFRfdMV1e/elXVPe05dxL0R8sIGS0690vabS/U9vwGm3MdKynb0oZnQ6Yt/j4GPVRb+CQG64c2OU6Lh+MXifq049zVQvT5M4zPOmkt3wN8s17k6FGwe9yixwvxfIxNNk86CTv8boTvb4r77p04nkqKl4J/K965ftD7QY/CnuUwfg3jZifxeKE+Ibtd52pJc8hEYuyQyzCu+bQ2kjjHv80CzqHEeqkU39tu5GxFMUGAad1HOwrmA/X5znC7YTj7FPx8lpTrhz7iIw+Yv9Z4vhtu4JM1MMtiBzfglvFR+A3f+910Bv+X+KxM7IwJ8sDPfzfNS3zm+SWmgea571MM4JdcLetaE86dQkyU7W70v+7n15akGedBsNvTXOfxsSbqwpqNPcfJOoYi94hp1cez/uyXFDNyPpZoi39NfCKmM0kxoY7ARW14qWS+BrZb8t6WW8ieqTPWB/C9URw35Z2COhpKwjcxNV6Z2qikvd8p7GPyh2/4B787Jpe25v8G55rW+1jzzjsJPKyaXmCOapnv976/rqhFcAV86HHk7J7iGmS2pX7HWYzjTPNpOds3ueadyLnlc1bodwryOZFUS//S7+9tLSmuU5PfY3PP2XiP9F0o9fuhwbmbxQfBW/Ui6HN9c5hr9umSvndNebf3PGPiWu9W3Mc3IL8TS/U51txChiZ2rN02dw/PhOT3fI4TvJXu75dh7ZXqltYga6ZWjtAHOU7u+7CY9o/MvE25ZyvDOf2PI3D+BgIKhYo=
+   eJytVU1LHEEQbbw17MEeiLA55pBz3OQPrPgHFP9MEsxdJN6NH79AY+ItRxWyu2fBldldQQ9hQU1O8Wr60fXomt6ekYAPmuqZrq55r6q6Z9w25sqP3w0WGCwY8+iafe/F9+4JnzuxfZf3pQ+/DYwb4p34cSq+iEkOOg59Up6aD+3IhbHeMubvfIj54O2nVlxL94DfpB1y9N77fWgY5/Ph+7B1Ph9bkTvibvjnG+H9+mWwUxf1EnjXtcZ0/Hjrx5nfs+jttbebrZjHe4kJ7BfGlC7OgUsXtAN/vF22cW3gwhzvNjM8ey70C7hBI/IFHl3hBIDTqg1+BOYrEvO7yi15Aj99rAulec0GfmkeoOeXeoeY7IFJoh25QW6pj+AzYh8V8Rt8n8tnX2mnJuCdrT7XzXP51Ji6yGlF6tyxUQPyy/5alLU6nnsZTcRuEeKv2uraK1fP85v3OxTfkavqY0+USV5S7SnPTtIz1LtkTRao+dCFPkEe6vIJTbeuqmlNYiIv7FndA7sNda/TRBwW1TWejQPh8VTdNdBLab+TI23fNZ93AvOu1JnP0I5a7iV+1F7Hkz0ILEsfDqXuvJM08J41Kl31vHfs7ABH5Kqn6vVG+lT3CHmm5x3foo5bqafO2ZGqNe9EznU+J5nzTqCel7KvdP933o91Lwmvqarzubrn9Nk/a89qZ91PFc/9RB+Af9WWH5/ln8Nal+psjBr6k72s88C19lzYh7WvxeydmOvPodLbU3OsvVB3D78JpPd8yhN5y93f237ti4wd6UH2TCk5wjlIeXLfj4W4f6DmTYN7dhKe42e04PkPo/Z3fg==
   </data>
  </layer>
  <layer name="Layer1" width="21" height="30" visible="0">
@@ -201,17 +201,17 @@
  </layer>
  <layer name="Above" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCvJwHBHEpVGBjD+HUlUMXx6cIGNQHWb0NTekcSthlhzQeCpAIR+JoApB3MnLjsJAXEmwmruQc28CKQvQdmbSbBnMxb9MPCQgDlPsfgZGThxMjA8ItHPMADzOzFhQA0AcisIoKcTEMAWNsjuwuVGF6iZ6PFOiZ9gZpIKsPmBUjNBYeaIQ28QFvEFQvjNo2ZcbyaQNnEBXP6hBGALX2x+xRdHxJhJDMAXxqSYSWz4kutOappphEM9cpkfSAV3OlHRr7B4Ijf8kOMHvT4g18wNSPnXGM0MbPmd3oBVkPZ2oLcliM0H1CrbZvFgZxOrh5YAAOt9N6A=
+   eJzFlssNwjAMhi0kDkgcCheUOZiAigVgPC4wAtBJ4FyQQGrnoBaJ5KZO4iRFfJf0Yf/xI64KAPBQALXqrxRzX6v+M5+Pi0tnd7Vsa+W2keoiTfFd22L4zsTp2jPEahK2eWrNW7fe9XUVsU/F+BteAZ2GyZlSzgDewljsmE3ukhqMAcaK2OcE4Wpjx3VcDv22WtPue05ORjMWLodcTazZxuG7Z56fmBpRxup1FTiXPlz5nJnYpXPG1Tc319Se+faN0ZTWmGr6zmAMsbmXDnv6zd8JNLkZD+2RCvYptccI7Q89pzmadAbWRIeb9X8wXaT7+npLsf8lpHMw1rftMOevpT6/5APhtTwE
   </data>
  </layer>
  <layer name="Walkable" width="21" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNU9sNwCAIdIruv4Ib9svEEO9F/SgJqVI47wTnM8YUvkzlrVwnz81Nz3bzk5z6veFdrJ0Lsi94p3XaD8Vp3yfcGS7aM9xTvNa498I41npmKWZ3vpi+U62j3Z3Pjh42i+jMRLvqtdKe6EPY7ry7lmiv/5x4wpPNU+K1roPDOLJ1t+/MEkymF2Gp9+7E1D0qnql29pY7mKjv7A4V1t/9BYvcKck=
+   eJzVk1EKwCAMQz3F7n8Fb7gvQaQmL7qfFcrEpWmitT+tdZMjHG5gCY5i094Un2DW7xd5yjVr2cUNX7VO78NpmfepdufVBb2DtUatU50rT6KTYul8KX9VLfGu+Eikfk75dt5dn5N7d/qUVlLn+Il3csbEu3rf6o0lWZ0DnXk3o7t/VE8aKafSRHSqmVd7tzoT/w57wklnuerz13wBSqsqkA==
   </data>
  </layer>
- <layer name="Layer2" width="21" height="30" visible="0">
+ <layer name="Layer2" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVVNsJwCAMdIruv4Ib9qsgIbmHTZEGghri5fLQeY0xiT7C/Fztxlylk19cT+a+clGE9S/ziXvkp3KsOKuYKGdWF7WWiHOG3YGpzhcTFrMrd9b36PMWU5mb7Mzwvsid3XO5sjuZ7L53NIeVfaeemX1n5tl/cKrviKf7jlys9ez2HdnceiJu0c/JXa03m6cqfhbnr3oDRNoX6A==
+   eJzNklEKgDAMQ3cK738Fb+jXQEaXvNR9WCgOybIm6X2NcZue5XATS3AUm75N8Qlm/Z7oLtd7ll194avOaR7Ory6n0uqKZrDeob44PzteU+2d/VKzKF8c93p/5Uy106wSf9T7Xe1KXzVXhU9yJ0XnJB4T7WluKm+3X9VMlHPno9pPuktVBh1OwkUzIDuv/p3grHSk2qnfNHfloeP6ez+sUz3/
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -347,12 +347,14 @@
   </object>
   <object id="21" name="graveyard_corpse_entrance" type="spawn" x="224" y="160" width="160" height="64">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>
   </object>
   <object id="22" name="graveyard_corpse_boss_patrol" type="spawn" x="256" y="704" width="128" height="96">
    <properties>
+    <property name="active" value="false"/>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="graveyard_corpse"/>
    </properties>

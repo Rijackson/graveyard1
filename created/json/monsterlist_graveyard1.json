@@ -48,26 +48,26 @@
         "monsterClass":"undead",
         "movementAggressionType":"none",
         "attackDamage":{
-            "min":20,
-            "max":35
+            "min":8,
+            "max":25
         },
         "spawnGroup":"graveyardking",
         "phraseID":"graveyardking_1",
         "droplistID":"graveyardkingdrop",
         "attackCost":3,
-        "attackChance":220,
-        "criticalSkill":20,
-        "criticalMultiplier":3.0,
-        "blockChance":185,
+        "attackChance":175,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":170,
         "damageResistance":12,
         "hitEffect":{
-            "increaseCurrentAP":{
-                "min":0,
-                "max":0
+            "increaseCurrentHP":{
+                "min":1,
+                "max":4
             },
             "conditionsTarget":[
                 {
-                    "condition":"drain_life",
+                    "condition":"putrefaction",
                     "magnitude":3,
                     "duration":3,
                     "chance":"50"
@@ -83,7 +83,7 @@
         "maxAP":10,
         "moveCost":3,
         "monsterClass":"undead",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"wholeMap",
         "attackDamage":{
             "min":5,
             "max":15
@@ -91,15 +91,19 @@
         "spawnGroup":"graveyard_corpse",
         "droplistID":"graveyardcorpse",
         "attackCost":3,
-        "attackChance":170,
+        "attackChance":160,
         "criticalSkill":5,
         "criticalMultiplier":2.0,
         "blockChance":135,
         "damageResistance":9,
         "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":2
+            },
             "conditionsTarget":[
                 {
-                    "condition":"drain_life",
+                    "condition":"putrefaction",
                     "magnitude":1,
                     "duration":3,
                     "chance":"25"
@@ -124,15 +128,19 @@
         "phraseID":"graveyard_corpse1",
         "droplistID":"gold200",
         "attackCost":3,
-        "attackChance":190,
+        "attackChance":170,
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":165,
         "damageResistance":11,
         "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
             "conditionsTarget":[
                 {
-                    "condition":"drain_life",
+                    "condition":"putrefaction",
                     "magnitude":2,
                     "duration":3,
                     "chance":"30"
@@ -149,8 +157,8 @@
         "moveCost":5,
         "monsterClass":"construct",
         "attackDamage":{
-            "min":5,
-            "max":8
+            "min":3,
+            "max":7
         },
         "spawnGroup":"waterwayamushroom",
         "droplistID":"waterwayamushroom",
@@ -181,7 +189,7 @@
         "monsterClass":"insect",
         "movementAggressionType":"helpOthers",
         "attackDamage":{
-            "min":4,
+            "min":3,
             "max":6
         },
         "spawnGroup":"waterwayacaterpillar",
@@ -191,7 +199,7 @@
         "criticalSkill":10,
         "criticalMultiplier":2.0,
         "blockChance":60,
-        "damageResistance":4
+        "damageResistance":1
     },
     {
         "id":"waterwayhermit",
@@ -421,6 +429,40 @@
                     "magnitude":2,
                     "duration":3,
                     "chance":"20"
+                }
+            ]
+        }
+    },
+    {
+        "id":"graveyard_corpse3",
+        "name":"Angry graveyard corpse",
+        "iconID":"monsters_zombie2:0",
+        "maxHP":90,
+        "moveCost":3,
+        "monsterClass":"undead",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":6,
+            "max":19
+        },
+        "spawnGroup":"graveyard_corpse3",
+        "attackCost":3,
+        "attackChance":170,
+        "criticalSkill":10,
+        "criticalMultiplier":2.0,
+        "blockChance":165,
+        "damageResistance":11,
+        "hitEffect":{
+            "increaseCurrentHP":{
+                "min":1,
+                "max":3
+            },
+            "conditionsTarget":[
+                {
+                    "condition":"putrefaction",
+                    "magnitude":2,
+                    "duration":3,
+                    "chance":"30"
                 }
             ]
         }
