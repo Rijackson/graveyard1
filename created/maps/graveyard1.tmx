@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJytVU1LHEEQbbw17MEeiLA55pBz3OQPrPgHFP9MEsxdJN6NH79AY+ItRxWyu2fBldldQQ9hQU1O8Wr60fXomt6ekYAPmuqZrq55r6q6Z9w25sqP3w0WGCwY8+iafe/F9+4JnzuxfZf3pQ+/DYwb4p34cSq+iEkOOg59Up6aD+3IhbHeMubvfIj54O2nVlxL94DfpB1y9N77fWgY5/Ph+7B1Ph9bkTvibvjnG+H9+mWwUxf1EnjXtcZ0/Hjrx5nfs+jttbebrZjHe4kJ7BfGlC7OgUsXtAN/vF22cW3gwhzvNjM8ey70C7hBI/IFHl3hBIDTqg1+BOYrEvO7yi15Aj99rAulec0GfmkeoOeXeoeY7IFJoh25QW6pj+AzYh8V8Rt8n8tnX2mnJuCdrT7XzXP51Ji6yGlF6tyxUQPyy/5alLU6nnsZTcRuEeKv2uraK1fP85v3OxTfkavqY0+USV5S7SnPTtIz1LtkTRao+dCFPkEe6vIJTbeuqmlNYiIv7FndA7sNda/TRBwW1TWejQPh8VTdNdBLab+TI23fNZ93AvOu1JnP0I5a7iV+1F7Hkz0ILEsfDqXuvJM08J41Kl31vHfs7ABH5Kqn6vVG+lT3CHmm5x3foo5bqafO2ZGqNe9EznU+J5nzTqCel7KvdP933o91Lwmvqarzubrn9Nk/a89qZ91PFc/9RB+Af9WWH5/ln8Nal+psjBr6k72s88C19lzYh7WvxeydmOvPodLbU3OsvVB3D78JpPd8yhN5y93f237ti4wd6UH2TCk5wjlIeXLfj4W4f6DmTYN7dhKe42e04PkPo/Z3fg==
+   eJytVU1rGzEQFb0JfLAWEnCPPfTcOP0DLvkDCfkzbWnvJST3fP6C5vPWYxOo7XOgDmu70B6CIR89tddWD81Ds7J2QyAPxGhXo9n3ZkbaSceYH37cN1hguGjMP9fseye+tw/43IoduLwvffhtYNIQ76sf5+KLmOSg49An5an50I5dGB9axvxph5h/vf3YimvpHvCbdkKO3nq/dw3jsh2+D1vn874VuSPuJ//8S3i/fB7szEW9BN71rDFdP5b9uPB7lrz96e1GK+bxTmICB4UxpYtz4MoF7cBvb1dsXBu6MMe7jQzPvgv9Am7QiHyBR084AeC0ZoMfgfmqxDxVuSVP4JuP9V1pXrfVuhPQc63eISZ7YJpoR26QW+oj+IzYx0X8Bt/n8jlQ2qkJeG2rz3XzXD41Zi5yWpU6d23UgPyyv5ZkrY7nfkYTsVeE+Gu2uvbC1fM88X6H4jt2VX3siTLJS6o95dlNeoZ631iTBWo+cqFPkIe6fELTjatqWpfcIS/sWd0Dew11r9NEHBbVNZ6Nz8LjobproJfSfidH2oFrPu8E5j2pM5+hHbXcT/yovY4nexBYkVyOpO68kzTwnjUqXfW8d+38AEfkqq/q9Ur6VPcIeabnHd+ijhupp87Zsao170TOdT6nmfNOoJ5Xsq90jzvvZ7qXhNdM1fmyHfnqs3/RmdfOup8rngeJPgD/qi0/NuWfw1qX6myMG/qTvazzwLXOs7APa0fF/J2Y68+R0ttXc6wtqLuH3wTSez7libzl7u9tv7YjY1d6kD1TSo5wDlKe3PdlMe4fqnnT4J7dhOfkCS14/gfUNXdi
   </data>
  </layer>
  <layer name="Layer1" width="21" height="30" visible="0">
@@ -201,17 +201,17 @@
  </layer>
  <layer name="Above" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlssNwjAMhi0kDkgcCheUOZiAigVgPC4wAtBJ4FyQQGrnoBaJ5KZO4iRFfJf0Yf/xI64KAPBQALXqrxRzX6v+M5+Pi0tnd7Vsa+W2keoiTfFd22L4zsTp2jPEahK2eWrNW7fe9XUVsU/F+BteAZ2GyZlSzgDewljsmE3ukhqMAcaK2OcE4Wpjx3VcDv22WtPue05ORjMWLodcTazZxuG7Z56fmBpRxup1FTiXPlz5nJnYpXPG1Tc319Se+faN0ZTWmGr6zmAMsbmXDnv6zd8JNLkZD+2RCvYptccI7Q89pzmadAbWRIeb9X8wXaT7+npLsf8lpHMw1rftMOevpT6/5APhtTwE
+   eJzFlssNwjAMhi0kDkgcCheUOZiAigVgPC4wAtBJ4ByQQGrnoBaN5KZO4iRFfJeUYP/xI64KAPBQAFr1V4r5rVV/z+fj4tLaXS1brdw2Ul2kLr5rUwz/M3G6zgyxmoRtnp3mrV3v3XMVcU7F+BteAZ2ayZlSzgDewljsmE3ukhqMAcaK2PcE4Wpjc1wO97adpt33nJyMZiy+HFI1sWYbh++e2T8xNaKM1esqcC99uPI5M7FL54yrb26uqT3znRujKa0x1ZTMUaymhNJhT9/5O4EmN+OhM1LBPqX2GKH9ofc0R5POwJrocLP+D6aLdF9fbyn2t4R0DsZ6tx3m/LPU55d8ADDDO+s=
   </data>
  </layer>
  <layer name="Walkable" width="21" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzVk1EKwCAMQz3F7n8Fb7gvQaQmL7qfFcrEpWmitT+tdZMjHG5gCY5i094Un2DW7xd5yjVr2cUNX7VO78NpmfepdufVBb2DtUatU50rT6KTYul8KX9VLfGu+Eikfk75dt5dn5N7d/qUVlLn+Il3csbEu3rf6o0lWZ0DnXk3o7t/VE8aKafSRHSqmVd7tzoT/w57wklnuerz13wBSqsqkA==
+   eJzVk1EOwCAIQz3F7n8Fb7gvE7MAfUV/RkJmXK0t4HzGmCJXKNzCEhzFundTvIP5fm9kl2vXksUJX7R2+6G07PtUe+WVBO1Bxq3qQnV2eudg6XxV/qKzxHvFR8L10+XLvFNPTo+UvkorOaf4iXdSY+K9et/VG3MyqgOdeTWj2T+qxw2Xs9JEdGb9VHunOh3/CtvhpLMc3fPXfAGBeSqQ
   </data>
  </layer>
  <layer name="Layer2" width="21" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNklEKgDAMQ3cK738Fb+jXQEaXvNR9WCgOybIm6X2NcZue5XATS3AUm75N8Qlm/Z7oLtd7ll194avOaR7Ory6n0uqKZrDeob44PzteU+2d/VKzKF8c93p/5Uy106wSf9T7Xe1KXzVXhU9yJ0XnJB4T7WluKm+3X9VMlHPno9pPuktVBh1OwkUzIDuv/p3grHSk2qnfNHfloeP6ez+sUz3/
+   eJzNUlsKwDAI6yl2/yv0hvsqDIkmcTImyB6kqUnc11qb9CmGO1gFp2Ldu1W8g4nPie5yPWfJ6g0fenfzYH51OTOtSqkZZNzMF+Znx2tFe3e/qlkqXxh3PB85Xe1qVo4/7v0KrtKH5kL4L3ceYdAZNLOza4zT7cxHZYcyTehbnRPxTHAqXGoGbOfZvwlOpMPVrvqt5l55yLj+3jfjIT3/
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -370,8 +370,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Script" visible="0">
-  <object id="24" name="graveyardday" type="script" x="256" y="736" width="128" height="64">
+ <objectgroup name="Script">
+  <object id="24" name="graveyardday" type="script" x="256" y="768" width="128" height="64">
    <properties>
     <property name="when" value="always"/>
    </properties>
