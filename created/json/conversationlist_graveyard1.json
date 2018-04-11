@@ -2026,7 +2026,7 @@
     },
     {
         "id":"taret_3",
-        "message":"The nastiest person in town is probably my neighbor. *laughs*. Be careful about walking in on her!",
+        "message":"The nastiest person in town is probably my neighbor. (laughs). Be careful about walking in on her!",
         "replies":[
             {
                 "text":"I appreciate the warning, but unfortunately it's too late. I already met her.",
@@ -2108,7 +2108,7 @@
     },
     {
         "id":"taret_5",
-        "message":"Thanks kid. *sigh* I expect she will be around here later to complain about that. You should be more careful what you say to people.  ",
+        "message":"Thanks kid. (sigh). I expect she will be around here later to complain about that. You should be more careful what you say to people.  ",
         "replies":[
             {
                 "text":"Sorry. You are right.",
@@ -2173,7 +2173,7 @@
     },
     {
         "id":"waterwaycaveloot",
-        "message":"You have stumbled upon the remains of an adventurer that came before you. Looking at what is left of their equipment, they were ill-prepared for a place such as this. Now they have no use for their equipment or gold. You debate whether to loot the corpse. In the past you have done worse, but...",
+        "message":"(You have stumbled upon the remains of an adventurer that came before you. Looking at what is left of their equipment, they were ill-prepared for a place such as this. Now they have no use for their equipment or gold. You debate whether to loot the corpse. In the past you have done worse, but...)",
         "replies":[
             {
                 "text":"You decide to take everything",
@@ -2200,8 +2200,8 @@
                 ]
             },
             {
-                "text":"There is nothing left to take from the corpse.",
-                "nextPhraseID":"X",
+                "text":"N",
+                "nextPhraseID":"waterwaycaveloot3",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2437,5 +2437,9 @@
     {
         "id":"graveyardwall_done",
         "message":"The cemetery is quiet now"
+    },
+    {
+        "id":"waterwaycaveloot3",
+        "message":"There is nothing left to take from the corpse."
     }
 ]

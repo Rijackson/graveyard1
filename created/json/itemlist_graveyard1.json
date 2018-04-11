@@ -63,7 +63,7 @@
             "increaseMaxHP":8,
             "increaseAttackChance":-5,
             "increaseBlockChance":17,
-            "increaseDamageResistance":1
+            "increaseDamageResistance":3
         }
     },
     {
