@@ -2198,17 +2198,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"waterwaycaveloot3",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":80
-                    }
-                ]
             }
         ]
     },
@@ -2441,5 +2430,33 @@
     {
         "id":"waterwaycaveloot3",
         "message":"There is nothing left to take from the corpse."
+    },
+    {
+        "id":"waterwaycaveloot_start",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"waterwaycaveloot",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"waterwaycaveloot3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":80
+                    }
+                ]
+            }
+        ]
     }
 ]
